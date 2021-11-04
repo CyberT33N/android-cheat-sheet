@@ -14,3 +14,11 @@ android-cheat-sheet
 - 3. Hold Volume Up + Power Button to boot into TWRP
 - 4. Install > Select Magisk-v23.0.zip > Select Reboot
 - 5. If you got endless loading screen go again into TWRP and then install uninstall.zip
+
+<br><br>
+
+## Magisk v20.4 (Works with Lineage 17.1)
+- 1. Download Magisk-v20.4.zip (https://github.com/topjohnwu/Magisk/releases/download/v20.4/Magisk-v20.4.zip) and Magisk-uninstaller-20200323.zip(https://github.com/topjohnwu/Magisk/releases/download/v20.4/Magisk-uninstaller-20200323.zip) to your smartphone
+- 2. Hold Volume Up + Power Button to boot into TWRP
+- 3. Install > Select Magisk-v23.0.zip > Select Reboot
+- 5. If you got endless loading screen go again into TWRP and then install uninstaller.zip
