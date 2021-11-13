@@ -22,3 +22,47 @@ android-cheat-sheet
 - 2. Hold Volume Up + Power Button to boot into TWRP
 - 3. Install > Select Magisk-v23.0.zip > Select Reboot
 - 5. If you got endless loading screen go again into TWRP and then install uninstaller.zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+_________________________________________________________
+_________________________________________________________
+<br><br>
+
+# Custom Roms
+
+<br><br>
+
+## Privacy
+
+<br><br>
+
+
+#### grapheneos
+- https://grapheneos.org/
+- Pixel, Xiaomi Mi A2
+
+#### calyxos
+- https://calyxos.org/install/
+- Pixel, Xiaomi Mi A2
+
+
+#### copperhead
+- https://calyxos.org/install/
+- Pixel
