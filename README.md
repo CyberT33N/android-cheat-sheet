@@ -30,6 +30,15 @@ android-cheat-sheet
 
 
 
+<br><br>
+<br><br>
+
+## Hide apps from being detected as root (https://www.youtube.com/watch?v=WrbY1UXw81M)
+- Download Magisk Manager (https://github.com/topjohnwu/Magisk/releases)
+- Open Magisk Manager and navigate to Modules. Search for "hide" and and install "MagiskHide Props Config". Reboot
+- Go to settings and enable "Magisk Hide".  After click on "Systemless Hosts".
+- Click on "Hide Magisk Manager". This will hide the Magisk Manager by giving the app a new name.
+- Click on "Superuser" tab and select MagiskHide. Here you can select the app which you want to hide from Root. Thats it!
 
 
 
