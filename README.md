@@ -368,4 +368,20 @@ ___________________________________________________
 3. Open Magisk -> Modules -> Install the download zip -> Reboot
 
 4.  If you can not see the app then unzip there archive and open manager.apk
+   
 
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+## Substratum Theme engine
+
+### Guides
+- https://droidwin.com/install-substratum-themes-android/
+
+1. Install Substratum Theme engine -> Start APP -> Access root -> Accept usage
+2. Reboot
