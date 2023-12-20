@@ -88,8 +88,9 @@ _________________________________________________________
 ## gui
 - https://github.com/francescotescari/XiaoMiToolV2
 
-## guide
+## Guides
 - https://droidwin.com/how-to-install-lineageos-on-redmi-note-12-pro/
+- https://droidwin.com/fix-failed-remote-not-enough-space-to-resize-partition/
 
 ## nice 2 know
 - https://droidwin.com/best-magisk-modules-2020-part-1/
@@ -214,14 +215,52 @@ ___________________________________________________
 
 4. Go into fastboot
   - Power off and then hold volume down and power button (Hold it long atleast 15 seconds)
-  ```
+  ```shell
   adb reboot bootloader
   ```
     - Verify fastboot connection:
-    ```
+    ```shell
     fastboot devices
     ```
 
 5. Disable Verity Check
+```shell
+fastboot --disable-verification flash vbmeta '/home/username/Documents/dennis/stock firmware/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0/images/vbmeta.img'
 ```
+
+6. Flash LineageOS ROM
+```shell
+# Wait until you see fastbootd logo
+fastboot reboot fastboot
+
+# Now delete the logical partition to free up some space on your device
+fastboot delete-logical-partition product_a
+
+# Flash rom
+# NOTE: Make sure that the system.img is being flashed in the same partition whose product partition is deleted. In our case, product_a is deleted, so system.img is being flashed to the system_a partition. If that is not the case with you, then you’ll get a not enough space to resize partition error. In such cases, either delete the other product partition [b] and then flash system.img there [b] or flash the system.img to the partition [a] whose product is deleted [a].
+fastboot flash system system.img
 ```
+  - If error "not enough space to resize partition" (https://droidwin.com/fix-failed-remote-not-enough-space-to-resize-partition/)
+  ```shell
+  # Search for (bootloader) current-slot
+  fastboot getvar all
+
+  # If it is (bootloader) current-slot:b
+  fastboot delete-logical-partition product_b
+  fastboot flash system_b /home/dennis/Documents/dennis/lineage-20.0-20231214-UNOFFICIAL-arm64_bgN.img
+  ```
+
+7. format data
+```shell
+fastboot -w
+```
+  - If you get error "fastboot: error: Cannot generate image for userdata"
+  ```shell
+  fastboot erase userdata
+  ```
+
+8. reboot
+```
+fastboot reboot
+```
+   
