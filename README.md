@@ -263,4 +263,44 @@ fastboot -w
 ```
 fastboot reboot
 ```
-   
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+## TWRP 
+
+### Guides
+- https://www.youtube.com/watch?v=Apf-wx7wi9c
+
+### Download
+- https://sourceforge.net/projects/recovery-topaz/files/TWRP/twrp-3.7.0-RN124G_V2.img.7z/download
+
+1. - Reload in fastboot
+```shell
+adb reboot bootloader
+# If needed to go back use fastboot reboot
+```
+
+2.  Verify if it works
+```shell
+fastboot devices
+```
+
+3.  Flash recovery
+```shell
+fastboot flash recovery /home/dennis/Documents/dennis/twrp-3.7.0-RN124G_V2.img
+```
+
+4. Reboot recovery
+```shell
+fastboot reboot recovery
+
+# Check if everything is working - If yes Reboot -> System and check if your phone is still working
+```
