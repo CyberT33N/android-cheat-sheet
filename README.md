@@ -312,12 +312,12 @@ ___________________________________________________
 <br>
 <br>
 
-## Magisk 26.4 - Lineage OS 20
+## Magisk - Lineage OS 20
 
 ### Guide 
 - https://www.youtube.com/watch?v=7eR7bVu-e4s
 
-1. Download Magisk
+1. Download latest Magisk
 - https://github.com/topjohnwu/Magisk/releases/tag/v26.4
 
 2 Reboot recovery
@@ -345,4 +345,27 @@ d) Open Magisk app
 - It will ask for re-flash > Click direct installation -> Reboot Button
 
 d) Download Root Checker Basic APP and verify if your are rooted
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+## LSposed Framework
+
+### Guide
+- https://www.youtube.com/watch?v=FtZuoynM0p4
+
+1. Open Magisk -> Settings -> Enable Zygisk -> Reboot
+
+2. Download latest LSposed Zygisk Release
+- [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed/releases/tag/v1.9.2)
+
+3. Open Magisk -> Modules -> Install the download zip -> Reboot
+
+4.  If you can not see the app then unzip there archive and open manager.apk
 
