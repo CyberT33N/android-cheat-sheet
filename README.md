@@ -133,8 +133,6 @@ vboxmanage list usbhost
 ___________________________________________________
 ___________________________________________________
 
-
-
 <br>
 <br>
 
@@ -298,9 +296,53 @@ fastboot devices
 fastboot flash recovery /home/dennis/Documents/dennis/twrp-3.7.0-RN124G_V2.img
 ```
 
+
 4. Reboot recovery
 ```shell
 fastboot reboot recovery
 
 # Check if everything is working - If yes Reboot -> System and check if your phone is still working
 ```
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+## Magisk 26.4 - Lineage OS 20
+
+### Guide 
+- https://www.youtube.com/watch?v=7eR7bVu-e4s
+
+1. Download Magisk
+- https://github.com/topjohnwu/Magisk/releases/tag/v26.4
+
+2 Reboot recovery
+```shell
+adb reboot bootloader
+fastboot reboot recovery
+```
+
+3. Install
+a) TWRP -> Advanced -> ADB Sideload -> SWIPE (No need to check anything)
+
+b) Check devices
+```
+# You should see there sideload next to your device in the other column
+adb devices
+```
+
+c)
+```
+adb sideload /home/dennis/Documents/dennis/Magisk-v26.4.apk
+```
+- Click Reboot System
+
+d) Open Magisk app
+- It will ask for re-flash > Click direct installation -> Reboot Button
+
+d) Download Root Checker Basic APP and verify if your are rooted
+
