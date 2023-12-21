@@ -33,7 +33,27 @@ android-cheat-sheet
 <br><br>
 <br><br>
 
-## Hide apps from being detected as root (https://www.youtube.com/watch?v=WrbY1UXw81M)
+## Hide apps from being detected as root
+
+## After Magisk 24
+0. Hide Magis app via settings
+1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
+2. Run YASNAC SafetyNet Checker and pass
+    - If you can not pass download (https://www.youtube.com/watch?v=rggvk3DPD1o):
+        - https://github.com/kdrag0n/safetynet-fix/releases
+            - Flash .zip -> Reboot -> re-run YASNAC SafetyNet Checker and pass
+              - If not go to step 3
+3. Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
+   - Make sure Universal fix and shamiko modules are sucessfully enabled
+     - If not work try to go to step 4
+       
+4. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
+   - At google play service only enable:
+    - com.google.com.android.gms 
+    - com.google.android.gms.unstable
+
+### Before Magisk 24
+(https://www.youtube.com/watch?v=WrbY1UXw81M)
 - Download Magisk Manager (https://github.com/topjohnwu/Magisk/releases)
 - Open Magisk Manager and navigate to Modules. Search for "hide" and and install "MagiskHide Props Config". Reboot
 - Go to settings and enable "Magisk Hide".  After click on "Systemless Hosts".
