@@ -51,6 +51,7 @@ android-cheat-sheet
    - At google play service only enable:
     - com.google.com.android.gms 
     - com.google.android.gms.unstable
+5. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
 
 ### Before Magisk 24
 (https://www.youtube.com/watch?v=WrbY1UXw81M)
