@@ -2,10 +2,123 @@
 android-cheat-sheet
 
 
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+# TWRP
+
+## Redmi Note 12 4G NFC - Lineage OS 20
+
+### Guides
+- https://www.youtube.com/watch?v=Apf-wx7wi9c
+
+### Download
+- https://sourceforge.net/projects/recovery-topaz/files/TWRP/twrp-3.7.0-RN124G_V2.img.7z/download
+
+1. - Reload in fastboot
+```shell
+adb reboot bootloader
+# If needed to go back use fastboot reboot
+```
+
+2.  Verify if it works
+```shell
+fastboot devices
+```
+
+3.  Flash recovery
+```shell
+fastboot flash recovery /home/dennis/Documents/dennis/twrp-3.7.0-RN124G_V2.img
+```
+
+
+4. Reboot recovery
+```shell
+fastboot reboot recovery
+
+# Check if everything is working - If yes Reboot -> System and check if your phone is still working
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+
+# Magisk
+
+## Root with Magisk by using TWRP
+
 <br><br>
 
-# Root with Magisk by using TWRP
+## Magisk v26.4 - Redmi Note 12 4G NFC - Lineage OS 20
 
+### Guide 
+- https://www.youtube.com/watch?v=7eR7bVu-e4s
+
+1. Download latest Magisk
+- https://github.com/topjohnwu/Magisk/releases/tag/v26.4
+
+2 Reboot recovery
+```shell
+adb reboot bootloader
+fastboot reboot recovery
+```
+
+3. Install
+a) TWRP -> Advanced -> ADB Sideload -> SWIPE (No need to check anything)
+
+b) Check devices
+```
+# You should see there sideload next to your device in the other column
+adb devices
+```
+
+c)
+```
+adb sideload /home/dennis/Documents/dennis/Magisk-v26.4.apk
+```
+- Click Reboot System
+
+d) Open Magisk app
+- It will ask for re-flash > Click direct installation -> Reboot Button
+
+d) Download Root Checker Basic APP and verify if your are rooted
+
+
+
+<br><br>
 <br><br>
 
 ## Magisk v23
@@ -15,6 +128,10 @@ android-cheat-sheet
 - 4. Install > Select Magisk-v23.0.zip > Select Reboot
 - 5. If you got endless loading screen go again into TWRP and then install uninstall.zip
 
+
+
+
+<br><br>
 <br><br>
 
 ## Magisk v20.4 (Works with Lineage 17.1)
@@ -30,12 +147,13 @@ android-cheat-sheet
 
 
 
+
 <br><br>
 <br><br>
 
-## Hide apps from being detected as root
+### Hide apps from being detected as root
 
-## After Magisk 24
+#### After Magisk 24
 0. Hide Magis app via settings
 1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
 2. Run YASNAC SafetyNet Checker and pass
@@ -53,13 +171,93 @@ android-cheat-sheet
     - com.google.android.gms.unstable
 5. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
 
-### Before Magisk 24
+<br><br>
+<br><br>
+
+#### Before Magisk 24
 (https://www.youtube.com/watch?v=WrbY1UXw81M)
 - Download Magisk Manager (https://github.com/topjohnwu/Magisk/releases)
 - Open Magisk Manager and navigate to Modules. Search for "hide" and and install "MagiskHide Props Config". Reboot
 - Go to settings and enable "Magisk Hide".  After click on "Systemless Hosts".
 - Click on "Hide Magisk Manager". This will hide the Magisk Manager by giving the app a new name.
 - Click on "Superuser" tab and select MagiskHide. Here you can select the app which you want to hide from Root. Thats it!
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+# LSposed Framework
+
+## Redmi Note 12 4G NFC - Lineage OS 20
+
+### Guide
+- https://www.youtube.com/watch?v=FtZuoynM0p4
+
+1. Open Magisk -> Settings -> Enable Zygisk -> Reboot
+
+2. Download latest LSposed Zygisk Release
+- [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed/releases/tag/v1.9.2)
+
+3. Open Magisk -> Modules -> Install the download zip -> Reboot
+
+4.  If you can not see the app then unzip there archive and open manager.apk
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+## Substratum Theme engine
+
+### Guides
+- https://droidwin.com/install-substratum-themes-android/
+
+1. Install Substratum Theme engine -> Start APP -> Access root -> Accept usage
+2. Reboot
+
+
+
+
+
+
+
+
+
 
 
 
@@ -287,126 +485,10 @@ fastboot -w
 fastboot reboot
 ```
 
+9. Install TWRP
+10. Install Magisk
+11. Install LSposed
+12. Instal Substratum Theme
 
 
-<br>
-<br>
-___________________________________________________
-___________________________________________________
 
-<br>
-<br>
-
-## TWRP 
-
-### Guides
-- https://www.youtube.com/watch?v=Apf-wx7wi9c
-
-### Download
-- https://sourceforge.net/projects/recovery-topaz/files/TWRP/twrp-3.7.0-RN124G_V2.img.7z/download
-
-1. - Reload in fastboot
-```shell
-adb reboot bootloader
-# If needed to go back use fastboot reboot
-```
-
-2.  Verify if it works
-```shell
-fastboot devices
-```
-
-3.  Flash recovery
-```shell
-fastboot flash recovery /home/dennis/Documents/dennis/twrp-3.7.0-RN124G_V2.img
-```
-
-
-4. Reboot recovery
-```shell
-fastboot reboot recovery
-
-# Check if everything is working - If yes Reboot -> System and check if your phone is still working
-```
-
-<br>
-<br>
-___________________________________________________
-___________________________________________________
-
-<br>
-<br>
-
-## Magisk - Lineage OS 20
-
-### Guide 
-- https://www.youtube.com/watch?v=7eR7bVu-e4s
-
-1. Download latest Magisk
-- https://github.com/topjohnwu/Magisk/releases/tag/v26.4
-
-2 Reboot recovery
-```shell
-adb reboot bootloader
-fastboot reboot recovery
-```
-
-3. Install
-a) TWRP -> Advanced -> ADB Sideload -> SWIPE (No need to check anything)
-
-b) Check devices
-```
-# You should see there sideload next to your device in the other column
-adb devices
-```
-
-c)
-```
-adb sideload /home/dennis/Documents/dennis/Magisk-v26.4.apk
-```
-- Click Reboot System
-
-d) Open Magisk app
-- It will ask for re-flash > Click direct installation -> Reboot Button
-
-d) Download Root Checker Basic APP and verify if your are rooted
-
-
-<br>
-<br>
-___________________________________________________
-___________________________________________________
-
-<br>
-<br>
-
-## LSposed Framework
-
-### Guide
-- https://www.youtube.com/watch?v=FtZuoynM0p4
-
-1. Open Magisk -> Settings -> Enable Zygisk -> Reboot
-
-2. Download latest LSposed Zygisk Release
-- [https://github.com/LSPosed/LSPosed](https://github.com/LSPosed/LSPosed/releases/tag/v1.9.2)
-
-3. Open Magisk -> Modules -> Install the download zip -> Reboot
-
-4.  If you can not see the app then unzip there archive and open manager.apk
-   
-
-<br>
-<br>
-___________________________________________________
-___________________________________________________
-
-<br>
-<br>
-
-## Substratum Theme engine
-
-### Guides
-- https://droidwin.com/install-substratum-themes-android/
-
-1. Install Substratum Theme engine -> Start APP -> Access root -> Accept usage
-2. Reboot
