@@ -398,8 +398,17 @@ vboxmanage list usbhost
 
 # Redmi Note 12 4G NFC (Topaz)
 
+## official ROMS
 
-## List of unofficial ROMS 
+### Cherish OS
+- https://cherishos.com/
+- https://sourceforge.net/projects/cherish-os/files/device/topaz/Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps.zip/download
+
+### Allpha Droid
+- https://github.com/AlphaDroid-Project
+- https://sourceforge.net/projects/alphadroid-project/files/topaz/AlphaDroid-13.0-20231103-topaz-vanilla-v1.10.zip/download
+
+## unofficial ROMS 
 - https://xdaforums.com/t/shared-unofficial-list-of-roms-for-topaz-and-tapas.4630557/
 ```
 These are some Popular tested Roms
@@ -441,27 +450,17 @@ Arrow Os
 https://rb.gy/0vz92
 Proton Plus
 https://rb.gy/7o6t2
-Cherish
-https://rb.gy/850v0
+
+
+pixysos
+
+AlphaDroid
 ```
 
 
 
 
 
-
-
-
-
-## lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
-- **WARNING** - In my case I was not able to recieve sms with this ROM**
-
-## gui
-- https://github.com/francescotescari/XiaoMiToolV2
-
-## Guides
-- https://droidwin.com/how-to-install-lineageos-on-redmi-note-12-pro/
-- https://droidwin.com/fix-failed-remote-not-enough-space-to-resize-partition/
 
 
 
@@ -514,15 +513,94 @@ Settings > Mi Account
 
 
 
-<br>
-<br>
-___________________________________________________
-___________________________________________________
 
-<br>
-<br>
 
-### Install Lineage OS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps (Guide not testes warning)
+
+### Install
+- TWRP must be installed
+   [Install TWRP](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#twrp)
+```
+# Download a file and check if it can be found here at this path
+adb shell ls /storage/emulated/0/Download/
+
+# Upload the .zip to your download folder
+adb push /home/usernameHere/Dennis/Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps.zip /storage/emulated/0/Download/
+
+adb reboot bootloader
+
+# Check if device can be found
+fastboot devices
+
+fastboot reboot recovery
+
+# From TWRP Recovery, go to Install, select CherishOS ZIP, and flash it. Just swipe
+
+# Press abckward button and get back to main menu. Wipe -> Advanced Wipe -> dalvik / ART Cache + Metadata + Data + Cache
+
+# Again, go to Wipe > Format Data. Type in YES in the space provided and hit the checkmark.
+
+# Finally, go to Reboot and select System. Your device will boot to the newly flashed OS.
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+
+
+
+
+## lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
+- **WARNING** - In my case I was not able to recieve sms with this ROM**
+
+## gui
+- https://github.com/francescotescari/XiaoMiToolV2
+
+## Guides
+- https://droidwin.com/how-to-install-lineageos-on-redmi-note-12-pro/
+- https://droidwin.com/fix-failed-remote-not-enough-space-to-resize-partition/
+
+### Install
 
 1. Get the details about your current MIUI-Version & Androidversion
   - Settings -> About this phone
