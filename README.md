@@ -9,7 +9,68 @@ android-cheat-sheet
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # TWRP
+<br><br>
+
+## WIPE
+
+<br><br>
+
+### Understand what partition you WIPE
+- https://xdaforums.com/t/info-android-device-partitions-and-filesystems.3586565/
+
+#### Dalvik / ART Cache 
+- This is the runtime cache, where executable binaries are stored (after APK files are "optimized"). It is a unique partition of the system
+  
+#### Cache
+- /cache partition, where temporary data is stored. These (numbers 1&2) are wiped on any clean or dirty flash of a ROM, or if problems occur in a running system. Wiping these is usually done together and do not effect actual user information or data.
+
+#### System
+- the /system partition, basically the operating system. This is only wiped when changing ROMs and a clean flash is required, it should never be done on a "stock" system in most cases other than already stated.
+
+#### Data 
+- the /data partition EXCLUDING /data/media (Internal Storage). This is how to perform a "factory reset", this will wipe all applications and user data, but not user's file (picture, music, documents, etc). When doing this, both cache and Dalvik/Art cache should be wiped as well.
+
+#### Internal Storage 
+- This is your /data/media folder, or user files. If you want a TRUE factory reset, you need to wipe this as well... be aware this will wipe all user file such as pictures, music, documents, and ROM images if you downloaded them there.
+
+#### MicroSD 
+- self explanatory
+
+#### USB OTG 
+- An external USB OTG storage device (often a USB stick) - self explanatory
+
+#### Vendor
+- This partition is replaced with a shortcut (symbolic link in fact) to /system/vendor directory. It contains system applications and libraries that do not have source code available on AOSP but added by vendors (OEM's).
+
+
+
+
 
 ## Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
 
@@ -32,7 +93,7 @@ fastboot devices
 
 3.  Flash recovery
 ```shell
-fastboot flash recovery /home/dennis/Documents/dennis/twrp-3.7.0-RN124G_V2.img
+fastboot flash recovery /home/dennis/Dennis/twrp-3.7.0-RN124G_V2.img
 ```
 
 
@@ -557,7 +618,10 @@ Settings > Mi Account
 
 
 ## Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps (Guide not testes warning)
+- https://cherishos.com/
+- https://sourceforge.net/projects/cherish-os/files/device/topaz/Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps.zip/download
 
+  
 ### Install
 - TWRP must be installed
    [Install TWRP](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#twrp)
@@ -575,6 +639,15 @@ fastboot devices
 
 fastboot reboot recovery
 
+# TWRP -> WIPE -> Advanced WIPE -> Cache, Dalvik, System, Data, Vendor
+# Vendor and System are maybe not visible but in my case I do not needed it
+
+# TWRP -> Install -> Choose .zip
+# In my case there was an error with failed to mount /product (invalid argument) but at the the end it worked anyway..
+
+# TWRP -> WIPE -> Format Data
+
+# Reboot to system
 
 ```
 
