@@ -647,7 +647,7 @@ fastboot reboot recovery
 
 # TWRP -> WIPE -> Format Data
 
-# Reboot to system
+# TWRP -> REBOOT -> System
 
 ```
 
