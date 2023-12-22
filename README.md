@@ -11,7 +11,7 @@ android-cheat-sheet
 
 # TWRP
 
-## Redmi Note 12 4G NFC - Lineage OS 20
+## Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
 
 ### Guides
 - https://www.youtube.com/watch?v=Apf-wx7wi9c
@@ -72,7 +72,7 @@ ___________________________________________________
 
 <br><br>
 
-## Magisk v26.4 - Redmi Note 12 4G NFC - Lineage OS 20
+## Magisk v26.4 - Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
 
 ### Guide 
 - https://www.youtube.com/watch?v=7eR7bVu-e4s
@@ -201,7 +201,7 @@ ___________________________________________________
 
 # LSposed Framework
 
-## Redmi Note 12 4G NFC - Lineage OS 20
+## Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
 
 ### Guide
 - https://www.youtube.com/watch?v=FtZuoynM0p4
@@ -396,7 +396,21 @@ vboxmanage list usbhost
 <br><br>
 
 
-# Redmi Note 12 4G NFC - lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
+# Redmi Note 12 4G NFC (Topaz)
+
+
+## List of unofficial ROMS 
+- https://xdaforums.com/t/shared-unofficial-list-of-roms-for-topaz-and-tapas.4630557/
+
+
+
+
+
+
+
+
+
+## lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
 - **WARNING** - In my case I was not able to recieve sms with this ROM**
 
 ## gui
