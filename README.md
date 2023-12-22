@@ -66,8 +66,6 @@ ___________________________________________________
 
 
 
-
-
 # Magisk
 
 ## Root with Magisk by using TWRP
@@ -185,6 +183,15 @@ d) Download Root Checker Basic APP and verify if your are rooted
 
 
 
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 ___________________________________________________
@@ -225,6 +232,7 @@ ___________________________________________________
 
 
 
+
 <br>
 <br>
 ___________________________________________________
@@ -233,12 +241,23 @@ ___________________________________________________
 <br>
 
 ## Substratum Theme engine
+- https://droidwin.com/install-substratum-themes-android/
 
 ### Guides
 - https://droidwin.com/install-substratum-themes-android/
 
 1. Install Substratum Theme engine -> Start APP -> Access root -> Accept usage
 2. Reboot
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -268,11 +287,21 @@ _________________________________________________________
 <br><br>
 <br><br>
 
+## Best in slot
+
+### Project Elexir
+- https://projectelixiros.com/download
+
+### Evolution X
+- https://evolution-x.org/download
+
+### Lineage OS
+
+
 
 ## Privacy
 
 <br><br>
-
 
 #### grapheneos
 - https://grapheneos.org/
@@ -282,12 +311,87 @@ _________________________________________________________
 - https://calyxos.org/install/
 - Pixel, Xiaomi Mi A2
 
-
 #### copperhead
 - https://calyxos.org/install/
 - Pixel
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+_________________________________________________________
+_________________________________________________________
+<br><br>
+
+# Install custom ROM Guides
+- Below you will find guides which I wrote an tested..
+
+<br><br>
+
+## General Guides
+
+<br><br>
+
+### How to insert the SIM card?
+- https://www.youtube.com/watch?v=TPcXMbwgO48
+
+
+
+
+<br><br>
+<br><br>
+
+## Dependencies
+- https://developer.android.com/studio/run/device
+
+<br><br>
+
+### Ubuntu
+```
+sudo apt install adb fastboot
+
+# virtualbox usb detection - If you want to try unlock your phone via windows virtual box
+sudo usermod -G vboxusers -a $USER
+
+sudo usermod -aG plugdev $LOGNAME
+
+reboot
+
+# This command should work or alternative check if you see usb devices at your vm settings
+vboxmanage list usbhost
+```
+
+### Windows
+- https://www.youtube.com/watch?v=u4zHekIABrI
+  - Basicly download platform tools and install google usb driver
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 <br><br>
 <br><br>
 
@@ -302,39 +406,6 @@ _________________________________________________________
 - https://droidwin.com/how-to-install-lineageos-on-redmi-note-12-pro/
 - https://droidwin.com/fix-failed-remote-not-enough-space-to-resize-partition/
 
-## nice 2 know
-- https://droidwin.com/best-magisk-modules-2020-part-1/
-- https://droidwin.com/install-xposed-framework-on-android-10-11-12-using-lsposed/
-- https://droidwin.com/install-substratum-themes-android/
-- https://droidwin.com/fix-viper4android-not-working-with-selinux-enforcing/
-
-## How to insert the SIM card?
-- https://www.youtube.com/watch?v=TPcXMbwgO48
-
-
-### Install dependencies
-- https://developer.android.com/studio/run/device
-
-#### Ubuntu
-```
-sudo apt install adb fastboot
-# sudo apt install android-tools-adb
-# sudo apt-get install android-sdk-platform-tools-common
-
-# virtualbox usb detection - If you want to try unlock your phone via windows virtual box
-sudo usermod -G vboxusers -a $USER
-
-sudo usermod -aG plugdev $LOGNAME
-
-reboot
-
-# This command should work or alternative check if you see usb devices at your vm settings
-vboxmanage list usbhost
-```
-
-#### Windows
-- https://www.youtube.com/watch?v=u4zHekIABrI
-  - Basicly download platform tools and install google usb driver
 
 
 
