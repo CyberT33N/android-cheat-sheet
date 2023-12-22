@@ -401,6 +401,49 @@ vboxmanage list usbhost
 
 ## List of unofficial ROMS 
 - https://xdaforums.com/t/shared-unofficial-list-of-roms-for-topaz-and-tapas.4630557/
+```
+These are some Popular tested Roms
+There are more roms but i guess im lazy to paste it here
+
+Please Follow this directions carefully
+You dont wanna be like, left with hard bricked device after skipping a step
+It was not booting
+
+HOW TO FLASH ROMS
+1. Boot to TWRP
+2. Flash preflash before flash rom
+3. Flash ROM Vanilla build
+4. Flash twrp
+5. Reboot twrp again
+6. Flash RO2RW DFE
+7. Reboot twrp again
+8. Flash Gapps (Recomended Using nikGapps) If Needed
+9. Wipe data, metadata, dalvik, cache
+
+
+ROMS
+FOR TOPAZ AND TAPAS
+CrDroid
+https://rb.gy/s2sg0
+Paranoid
+https://rb.gy/f1foe
+Pixel OS
+https://rb.gy/3daen
+Evolution X
+https://rb.gy/70221
+Superior OS Extended
+https://rb.gy/6ro4z
+Pixel Extended
+https://rb.gy/r1tss
+Rising OS
+https://rb.gy/hkme1
+Arrow Os
+https://rb.gy/0vz92
+Proton Plus
+https://rb.gy/7o6t2
+Cherish
+https://rb.gy/850v0
+```
 
 
 
