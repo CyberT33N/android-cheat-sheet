@@ -475,10 +475,12 @@ fastboot -w
 fastboot reboot
 ```
 
-9. Install TWRP
-10. Install Magisk
-11. Install LSposed
-12. Instal Substratum Theme
+9. [Install TWRP](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#twrp)
+10. [Install Magisk](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#magisk)
+11. [Install LSposed](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#lsposed-framework)
+    
+13. (optional) Instal Substratum Theme
+    - Most themes are paid only
 
 
 
