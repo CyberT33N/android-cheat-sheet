@@ -104,7 +104,8 @@ _________________________________________________________
 <br><br>
 
 
-# Redmi Note 12 4G NFC - Lineage 20
+# Redmi Note 12 4G NFC - lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
+- **WARNING** - In my case I was not able to recieve sms with this ROM**
 
 ## gui
 - https://github.com/francescotescari/XiaoMiToolV2
