@@ -252,6 +252,9 @@ fastboot --disable-verification flash vbmeta '/home/username/Documents/dennis/st
 # Wait until you see fastbootd logo
 fastboot reboot fastboot
 
+# maybe try this before and search for Search for (bootloader) current-slot in case that you directly get the correct partition
+# fastboot getvar all
+
 # Now delete the logical partition to free up some space on your device
 fastboot delete-logical-partition product_a
 
