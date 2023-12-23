@@ -493,7 +493,7 @@ Look for the “Screen Message”.
 If your phone supports Project Treble, then you see also which file you should download.
 ```
 - If you’re looking to install a custom ROM on your Android device, you may be interested in using a Generic System Image (GSI). GSIs are pure Android implementations that can be flashed to any Project Treble-compliant device. This means that you can install a GSI ROM on your device even if it is not officially supported by the ROM’s developer.
-    - **But this means as well there is a high chance that something will not work..**
+    - **But this means as well there is a high chance that something will not work.. However my Prio is always OFFICIAL -> GSI -> UNOFFICIAL ROMS from XDA**
 
 
 ### Project Elixir OFFICIAL Generic System Image
