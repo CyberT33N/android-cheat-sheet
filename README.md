@@ -707,7 +707,8 @@ ___________________________________________________
 ## Project Elixir OFFICIAL Generic System Image (ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img)
 - https://www.pling.com/p/1960767/
 
-
+### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
 
 
@@ -805,6 +806,7 @@ fastboot reboot recovery
 
 ## lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
 - **WARNING** - In my case I was not able to recieve sms with this ROM**
+- **Instead of using this guide just try to use the GSI Image**
 
 ## gui
 - https://github.com/francescotescari/XiaoMiToolV2
