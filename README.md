@@ -601,6 +601,49 @@ ___________________________________________________
 <br>
 <br>
 
+## How to install any Generic System Image (GSI)
+
+### Fastboot
+```
+# Check if device can be found
+adb devices
+
+# unzip the .xz file
+# unxz '/home/dennis/Dennis/ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img.xz'
+
+adb reboot bootloader
+
+# Check if device can be found
+fastboot devices
+
+fastboot erase userdata
+fastboot erase cache
+fastboot erase system
+
+fastboot flash system /home/dennis/Dennis/ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img
+
+fastboot reboot
+```
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
 ### Unlock phone with MI Unlock
 
 1. entiwckler optionen aktivieren
@@ -648,6 +691,21 @@ Settings > Mi Account
 
 
 
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+
+
+## Project Elixir OFFICIAL Generic System Image (ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img)
+- https://www.pling.com/p/1960767/
 
 
 
@@ -661,7 +719,26 @@ Settings > Mi Account
 
 
 
-## Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps (Guide not testes warning)
+
+
+
+
+
+  
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+
+
+## Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps
 - https://cherishos.com/
 - https://sourceforge.net/projects/cherish-os/files/device/topaz/Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps.zip/download
 
@@ -670,6 +747,9 @@ Settings > Mi Account
 - TWRP must be installed
    [Install TWRP](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#twrp)
 ```
+# Check if device can be found
+adb devices
+
 # Download a file and check if it can be found here at this path
 adb shell ls /storage/emulated/0/Download/
 
@@ -692,7 +772,6 @@ fastboot reboot recovery
 # TWRP -> WIPE -> Format Data
 
 # TWRP -> REBOOT -> System
-
 ```
 
 
