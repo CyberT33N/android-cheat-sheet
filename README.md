@@ -713,7 +713,8 @@ ___________________________________________________
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
-
+#### Problems
+- Live Wallpaper not working?
 
 
 
@@ -818,6 +819,9 @@ ___________________________________________________
 
 #### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+#### Problems
+- Live Wallpaper not working?
 
 
 
