@@ -516,22 +516,31 @@ HOW TO FLASH ROMS
 
 ROMS
 FOR TOPAZ AND TAPAS
+
 CrDroid
 https://rb.gy/s2sg0
+
 Paranoid
 https://rb.gy/f1foe
+
 Pixel OS
 https://rb.gy/3daen
+
 Evolution X
 https://rb.gy/70221
+
 Superior OS Extended
 https://rb.gy/6ro4z
+
 Pixel Extended
 https://rb.gy/r1tss
+
 Rising OS
 https://rb.gy/hkme1
+
 Arrow Os
 https://rb.gy/0vz92
+
 Proton Plus
 https://rb.gy/7o6t2
 
