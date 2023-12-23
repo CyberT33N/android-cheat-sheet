@@ -905,7 +905,7 @@ ___________________________________________________
 
 
 
-## Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps
+## Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps (Guide not perfect yet - will update soon)
 - https://cherishos.com/
 - https://sourceforge.net/projects/cherish-os/files/device/topaz/Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps.zip/download
 
