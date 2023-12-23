@@ -480,6 +480,30 @@ chmod +x flash_all.sh
 
 
 
+<br><br>
+<br><br>
+
+## Generic System Image (GSI)
+- https://github.com/phhusson/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list
+- https://magiskzip.com/gsi-list-phhusson/
+```
+Download the “Project Info” app from the Google Play Store.
+Launch the app and tap on the “Images” tab.
+Look for the “Screen Message”.
+If your phone supports Project Treble, then you see also which file you should download.
+```
+- If you’re looking to install a custom ROM on your Android device, you may be interested in using a Generic System Image (GSI). GSIs are pure Android implementations that can be flashed to any Project Treble-compliant device. This means that you can install a GSI ROM on your device even if it is not officially supported by the ROM’s developer.
+    - **But this means as well there is a high chance that something will not work..**
+
+
+### Project Elixir OFFICIAL Generic System Image
+- https://www.pling.com/p/1960767/
+
+
+
+<br><br>
+<br><br>
+
 
 
 ## official ROMS
@@ -491,6 +515,17 @@ chmod +x flash_all.sh
 ### Allpha Droid
 - https://github.com/AlphaDroid-Project
 - https://sourceforge.net/projects/alphadroid-project/files/topaz/AlphaDroid-13.0-20231103-topaz-vanilla-v1.10.zip/download
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+
 
 ## unofficial ROMS 
 - https://xdaforums.com/t/shared-unofficial-list-of-roms-for-topaz-and-tapas.4630557/
