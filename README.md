@@ -617,13 +617,30 @@ adb reboot bootloader
 # Check if device can be found
 fastboot devices
 
-# If you face any errors here with red text beside of partition not found then you should do the steps below which are basicly the same in TWRP
+
+
+
+
+## --------------- TWRP METHOD - WIPE (RECOMMEND) --------
+fastboot reboot recovery
+
 ## 1. TWRP -> WIPE -> ADVANCED WIPE -> Darvik, cache, data (If you get error then do first 2. and then 1. and then 3.)
 ### 2. TWRP -> WIPE -> FORMAT DATA
 ####  3. TWRP -> REBOOT -> into fastboot -> Flash rom
+
+
+
+# If you face any errors here with red text beside of partition not found then you should do the steps above which are basicly the same in TWRP
+## --------------- FASTBOOT METHOD - WIPE --------
 fastboot erase userdata
 fastboot erase cache
 fastboot erase system
+
+
+
+
+
+
 
 fastboot flash system /home/dennis/Dennis/ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img
 
