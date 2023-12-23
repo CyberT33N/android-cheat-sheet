@@ -618,9 +618,9 @@ adb reboot bootloader
 fastboot devices
 
 # If you face any errors here with red text beside of partition not found then you should do the steps below which are basicly the same in TWRP
-## TWRP -> WIPE -> ADVANCED WIPE -> Darvik, cache, data
-### TWRP -> WIPE -> FORMAT DATA
-####  TWRP -> BOOT -> into fastboot -> Flash rom
+## 1. TWRP -> WIPE -> ADVANCED WIPE -> Darvik, cache, data (If you get error then do first 2. and then 1. and then 3.)
+### 2. TWRP -> WIPE -> FORMAT DATA
+####  3. TWRP -> REBOOT -> into fastboot -> Flash rom
 fastboot erase userdata
 fastboot erase cache
 fastboot erase system
