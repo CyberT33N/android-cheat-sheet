@@ -842,3 +842,16 @@ fastboot reboot
 
 
 
+
+
+
+# FAQ
+
+## How To Fix Failed To Mount ( System_Root, '/ Vendor & More ( Invalid Argument & Resource Busy )
+1. TWRP -> WIPE -> FORMAT DATA
+2. TWRP -> REBOOT -> RECOVERY
+3. TWRP -> WIPE -> ADVANCED WIPE -> Cache, Dalvik, System, Data, Vendor (maybe aswell internal storage but should not be needed)
+
+
+
+
