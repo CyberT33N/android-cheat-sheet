@@ -451,6 +451,21 @@ vboxmanage list usbhost
 
 
 
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
 <br><br>
 <br><br>
 <br><br>
@@ -458,6 +473,10 @@ vboxmanage list usbhost
 
 
 # Redmi Note 12 4G NFC (Topaz)
+
+
+<br><br>
+<br><br>
 
 
 ## Flash back to stock firmware
@@ -496,8 +515,7 @@ If your phone supports Project Treble, then you see also which file you should d
     - **But this means as well there is a high chance that something will not work.. However my Prio is always OFFICIAL -> GSI -> UNOFFICIAL ROMS from XDA**
 
 
-### Project Elixir OFFICIAL Generic System Image
-- https://www.pling.com/p/1960767/
+
 
 
 
@@ -725,13 +743,13 @@ ___________________________________________________
 
 
 ## Project Elixir OFFICIAL Generic System Image (ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img) 
+- **WARNING - Recieving of sms is not working**
 - https://www.pling.com/p/1960767/
 
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
-#### Problems
-- Live Wallpaper not working?
+
 
 
 
@@ -838,8 +856,6 @@ ___________________________________________________
 #### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
-#### Problems
-- Live Wallpaper not working?
 
 
 
