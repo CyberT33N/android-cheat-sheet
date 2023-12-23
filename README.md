@@ -707,11 +707,61 @@ ___________________________________________________
 
 
 
-## Project Elixir OFFICIAL Generic System Image (ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img)
+## Project Elixir OFFICIAL Generic System Image (ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img) 
 - https://www.pling.com/p/1960767/
 
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+## Pixel OS OFFICIAL Generic System Image (PixelOS_Beta_treble_arm64_bN-14.0-20231114.img) 
+- https://github.com/MisterZtr/PixelOS_gsi/releases
+    - https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2014/PixelOS_Beta_treble_arm64_bN-14.0-20231114.img.xz/download
+- https://github.com/MisterZtr/PixelOS_gsi
+
+### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -748,6 +798,7 @@ ___________________________________________________
 
 
 ## Evolution X (evolution_arm64-ab-8.0.3-unofficial-20231201.img)
+- **NOT WORKING - Boots back into recvory**
 - https://github.com/KoysX/treble_build_evo/releases
   - https://github.com/KoysX/treble_build_evo/releases/download/v2023.12.01/evolution_arm64-ab-8.0.3-unofficial-20231201.img.xz
 
