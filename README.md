@@ -602,7 +602,8 @@ ___________________________________________________
 <br>
 
 ## How to install any Generic System Image (GSI)
-
+- Make sure TWRP is installed as fallback
+   [Install TWRP](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#twrp)
 ### Fastboot
 ```
 # Check if device can be found
@@ -616,6 +617,10 @@ adb reboot bootloader
 # Check if device can be found
 fastboot devices
 
+# If you face any errors here with red text beside of partition not found then you should do the steps below which are basicly the same in TWRP
+## TWRP -> WIPE -> ADVANCED WIPE -> Darvik, cache, data
+### TWRP -> WIPE -> FORMAT DATA
+####  TWRP -> BOOT -> into fastboot -> Flash rom
 fastboot erase userdata
 fastboot erase cache
 fastboot erase system
