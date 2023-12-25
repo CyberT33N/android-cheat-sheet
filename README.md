@@ -1252,7 +1252,7 @@ fastboot reboot recovery
 
 5. Disable Verity Check
 ```shell
-fastboot --disable-verification flash vbmeta '/home/username/Documents/dennis/stock firmware/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0/images/vbmeta.img'
+fastboot --disable-verification flash vbmeta '/home/dennis/Dennis/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0/images/vbmeta.img'
 ```
 
 6. Flash LineageOS ROM
