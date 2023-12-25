@@ -533,6 +533,8 @@ Download original stock firmware (https://new.c.mi.com/global/miuidownload/index
   - https://miuirom.org/phones/redmi-note-12-4g-nfc#EEA
     - https://airtel.bigota.d.miui.com/V14.0.12.0.TMGEUXM/topaz_eea_global_images_V14.0.12.0.TMGEUXM_20231106.0000.00_13.0_eea_0d5c69604e.tgz
 ```
+# go into fastboot
+
 cd /home/dennis/Dennis/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0 
 chmod +x flash_all.sh
 ./flash_all.sh
