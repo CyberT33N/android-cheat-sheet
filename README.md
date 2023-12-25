@@ -473,7 +473,8 @@ vboxmanage list usbhost
 
 
 # Redmi Note 12 4G NFC (Topaz)
-- **As it seems for the moment no Android 14 GSI Image is working**
+- **As it seems for the moment no official & unofficial Android 14 GSI Image is working**
+- **As it seems for the moment no official & unofficial Android 13 GSI Image is able to recieve SMS**
 
 <br><br>
 <br><br>
@@ -754,6 +755,7 @@ ___________________________________________________
 <br>
 
 ### Android 13 - UNOFFICIAL - SparkOS-13.8-arm64_bgN-Unofficial.img.xz
+** WARNING - Not able to recieve SMS**
 - https://github.com/naz664/SparkOS_gsi/releases/download/v2023.10.15/SparkOS-13.8-arm64_bgN-Unofficial.img.xz
 
 <br>
