@@ -18,7 +18,7 @@ android-cheat-sheet
 #### Cache
 - /cache partition, where temporary data is stored. These (numbers 1&2) are wiped on any clean or dirty flash of a ROM, or if problems occur in a running system. Wiping these is usually done together and do not effect actual user information or data.
 
-#### System
+#### System (**NO NEED TO WIPE** - *1)
 - the /system partition, basically the operating system. This is only wiped when changing ROMs and a clean flash is required, it should never be done on a "stock" system in most cases other than already stated.
 
 #### Data 
@@ -33,9 +33,10 @@ android-cheat-sheet
 #### USB OTG 
 - An external USB OTG storage device (often a USB stick) - self explanatory
 
-#### Vendor
+#### Vendor (**NO NEED TO WIPE** - *1)
 - This partition is replaced with a shortcut (symbolic link in fact) to /system/vendor directory. It contains system applications and libraries that do not have source code available on AOSP but added by vendors (OEM's).
 
+*1 You should NEVER have to wipe system or vendor manually. If the instructions for flashing your ROM recommend doing this, you should ignore the recommendation. If your device has dynamic partitions, then you cannot wipe system or vendor anyway, even if you wanted to (unless you do it via fastboot - and if you attempt this, you are on your own).
 
 
 
@@ -62,13 +63,12 @@ android-cheat-sheet
 
 
 
-
-<br>
-<br>
+<br><br>
+<br><br>
 ___________________________________________________
 ___________________________________________________
-<br>
-<br>
+<br><br>
+<br><br>
 
 # OrangeFox Recovery
 
@@ -76,7 +76,9 @@ ___________________________________________________
 ## Redmi Note 12 4G NFC (Topaz) (UNOFFICIAL at the moment)
 - https://xdaforums.com/t/unofficial-recovery-13-14-orangefox-recovery-project-tapas-topaz.4600157/
 - https://github.com/chickendrop89/orangefox_device_xiaomi_tapas/releases/download/2023-12-09/OrangeFox-Unofficial-tapas.img
-- 
+
+<br><br>
+
 ### Install
 ```shell
 fastboot flash recovery /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img --slot=all
@@ -88,9 +90,15 @@ fastboot flash recovery /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img --slo
 fastboot reboot recovery
 ```
 
+<br><br>
+
 ### How to select sd card
 - Files -> sdcard1
 
+<br><br>
+
+### Flash Guide
+- https://wiki.orangefox.tech/en/guides/flashing
 
 
 
@@ -1154,8 +1162,8 @@ fastboot devices
 
 fastboot reboot recovery
 
-# TWRP -> WIPE -> Advanced WIPE -> Cache, Dalvik, System, Data, Vendor
-# Vendor and System are maybe not visible but in my case I do not needed it
+# TWRP -> WIPE -> Advanced WIPE -> Cache, Dalvik, Data
+# Vendor and System should not be wiped even if the guide is saying so!
 
 # TWRP -> Install -> Choose .zip
 # In my case there was an error with failed to mount /product (invalid argument) but at the the end it worked anyway..
@@ -1356,7 +1364,8 @@ fastboot reboot
 ## How To Fix Failed To Mount ( System_Root, '/ Vendor & More ( Invalid Argument & Resource Busy )
 1. TWRP -> WIPE -> FORMAT DATA
 2. TWRP -> REBOOT -> RECOVERY
-3. TWRP -> WIPE -> ADVANCED WIPE -> Cache, Dalvik, System, Data, Vendor (maybe aswell internal storage but should not be needed)
+3. TWRP -> WIPE -> ADVANCED WIPE -> Cache, Dalvik, Data (maybe aswell internal storage but should not be needed)
+
 
 
 
