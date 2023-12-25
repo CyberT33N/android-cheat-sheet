@@ -473,7 +473,7 @@ vboxmanage list usbhost
 
 
 # Redmi Note 12 4G NFC (Topaz)
-
+- **As it seems for the moment no Android 14 GSI Image is working**
 
 <br><br>
 <br><br>
