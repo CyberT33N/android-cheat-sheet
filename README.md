@@ -9,38 +9,6 @@ android-cheat-sheet
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# TWRP
-<br><br>
-
-## WIPE
-
-<br><br>
-
 ### Understand what partition you WIPE
 - https://xdaforums.com/t/info-android-device-partitions-and-filesystems.3586565/
 
@@ -72,7 +40,80 @@ android-cheat-sheet
 
 
 
-## Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+<br>
+<br>
+
+# OrangeFox Recovery
+
+
+## Redmi Note 12 4G NFC (Topaz)
+- https://xdaforums.com/t/unofficial-recovery-13-14-orangefox-recovery-project-tapas-topaz.4600157/
+- https://github.com/chickendrop89/orangefox_device_xiaomi_tapas/releases/download/2023-12-09/OrangeFox-Unofficial-tapas.img
+- 
+### Install
+```shell
+fastboot flash recovery /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img --slot=all
+
+# If command above not work try
+# fastboot flash recovery_a /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img
+# fastboot flash recovery_b /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img
+
+fastboot reboot recovery
+```
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+# TWRP
+
+<br><br>
+
+
+## Redmi Note 12 4G NFC (Topaz) (UNOFFICAL at the moment)
 
 ### Guides
 - https://www.youtube.com/watch?v=Apf-wx7wi9c
