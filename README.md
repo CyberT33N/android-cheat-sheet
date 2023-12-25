@@ -527,14 +527,24 @@ If your phone supports Project Treble, then you see also which file you should d
 
 ## official ROMS
 
-### Cherish OS
+### Android 13 -Cherish OS
 - https://cherishos.com/
 - https://sourceforge.net/projects/cherish-os/files/device/topaz/Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps.zip/download
 
-### Allpha Droid
+<br><br>
+
+### Android 13 - Allpha Droid
 - https://github.com/AlphaDroid-Project
 - https://sourceforge.net/projects/alphadroid-project/files/topaz/AlphaDroid-13.0-20231103-topaz-vanilla-v1.10.zip/download
 
+<br><br>
+
+### Android 13 - OFFICIAL - AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip
+- https://sourceforge.net/projects/afterlife-projects/files/release/topaz/
+- https://sourceforge.net/projects/afterlife-projects/files/release/topaz/AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip/download
+
+
+
 
 
 
@@ -542,7 +552,7 @@ If your phone supports Project Treble, then you see also which file you should d
 
 <br><br>
 <br><br>
-
+<br><br>
 
 
 
@@ -720,6 +730,41 @@ Settings > Mi Account
               ```
                 - Now click unlock via MI Unlock GUI. Normally you have to wait now a few days before Xiaomi allows you to unlock the phone. After the time period is done you can retry it and the unlock should be successfully
                   - Restart the phone and then setup the phone again because we have to enable USB-Debugging again..
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+## AfterLife Project
+
+<br>
+<br>
+
+### Android 13 - OFFICIAL - AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip
+- https://sourceforge.net/projects/afterlife-projects/files/release/topaz/
+- https://sourceforge.net/projects/afterlife-projects/files/release/topaz/AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip/download
+
+  
+<br>
+<br>
 
 
 
