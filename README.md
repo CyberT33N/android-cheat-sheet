@@ -916,8 +916,8 @@ ___________________________________________________
 <br><br>
 
 
-### OFFICIAL Generic System Image - Android 13 (PixelOS-13.0-20230821-arm64_bN.img) 
-- https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2013/PixelOS-13.0-20230821-arm64_bN.img.xz/download
+### OFFICIAL Generic System Image - Android 13 (PixelOS-13.0-20230710-arm64_bgN.img) 
+- https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2013/PixelOS-13.0-20230710-arm64_bgN.img.xz/download
 
 - <br><br>
 
