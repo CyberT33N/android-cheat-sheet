@@ -73,7 +73,7 @@ ___________________________________________________
 # OrangeFox Recovery
 
 
-## Redmi Note 12 4G NFC (Topaz)
+## Redmi Note 12 4G NFC (Topaz) (UNOFFICIAL at the moment)
 - https://xdaforums.com/t/unofficial-recovery-13-14-orangefox-recovery-project-tapas-topaz.4600157/
 - https://github.com/chickendrop89/orangefox_device_xiaomi_tapas/releases/download/2023-12-09/OrangeFox-Unofficial-tapas.img
 - 
@@ -88,6 +88,8 @@ fastboot flash recovery /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img --slo
 fastboot reboot recovery
 ```
 
+### How to select sd card
+- Files -> sdcard1
 
 
 
