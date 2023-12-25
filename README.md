@@ -737,6 +737,56 @@ Settings > Mi Account
 
 
 
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+## sparkOS
+
+<br>
+<br>
+
+### Android 13 - UNOFFICIAL - SparkOS-13.8-arm64_bgN-Unofficial.img.xz
+- https://github.com/naz664/SparkOS_gsi/releases/download/v2023.10.15/SparkOS-13.8-arm64_bgN-Unofficial.img.xz
+
+<br>
+<br>
+
+### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -759,7 +809,7 @@ ___________________________________________________
 
 ### Android 14 - UNOFFICIAL - crDroid-10.0-arm64_bgN-Unofficial.img
 - **WARNING - Not booting**
-- [https://www.pling.com/p/1960767/](https://github.com/naz664/crDroid_gsi/releases)
+- https://github.com/naz664/crDroid_gsi/releases
 
 <br>
 <br>
