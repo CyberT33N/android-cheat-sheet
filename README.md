@@ -731,6 +731,65 @@ Settings > Mi Account
 
 
 
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+## crDroid
+
+<br>
+<br>
+
+### Android 14 - UNOFFICIAL - crDroid-10.0-arm64_bgN-Unofficial.img
+- **WARNING - Not booting**
+- [https://www.pling.com/p/1960767/](https://github.com/naz664/crDroid_gsi/releases)
+
+<br>
+<br>
+
+### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 ___________________________________________________
@@ -748,6 +807,13 @@ ___________________________________________________
 
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+
+
+
+
+
 
 
 
