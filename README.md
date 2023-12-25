@@ -896,17 +896,33 @@ ___________________________________________________
 
 ## Pixel OS
 
+<br><br>
+
 ### OFFICIAL Generic System Image - Android 14 (PixelOS_Beta_treble_arm64_bN-14.0-20231114.img) 
 - **NOT WORKING - Boots back into recvory**
 - https://github.com/MisterZtr/PixelOS_gsi/releases
     - https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2014/PixelOS_Beta_treble_arm64_bN-14.0-20231114.img.xz/download
 - https://github.com/MisterZtr/PixelOS_gsi
 
-### Install
+<br><br>
+
+#### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
 
 
+
+<br><br>
+<br><br>
+
+
+### OFFICIAL Generic System Image - Android 13 (PixelOS-13.0-20230821-arm64_bN.img) 
+- https://sourceforge.net/projects/misterztr-gsi/files/PixelOS/Android%2013/PixelOS-13.0-20230821-arm64_bN.img.xz/download
+
+- <br><br>
+
+#### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
 
 
