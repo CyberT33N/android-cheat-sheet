@@ -603,6 +603,9 @@ vboxmanage list usbhost
 # Redmi Note 12 4G NFC (Topaz)
 - **As it seems for the moment no official & unofficial Android 14 GSI Image is working**
 - **As it seems for the moment no official & unofficial Android 13 GSI Image is able to recieve SMS**
+  - But some images got Phh Treble Settings which can fix it
+    - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
+
 
 <br><br>
 <br><br>
@@ -1048,22 +1051,23 @@ ___________________________________________________
 
 
 
-## sparkOS
+## SparkOS
 
 <br>
 <br>
 
 ### Android 13 - UNOFFICIAL - SparkOS-13.8-arm64_bgN-Unofficial.img.xz
-** WARNING - Not able to recieve SMS**
 - https://github.com/naz664/SparkOS_gsi/releases/download/v2023.10.15/SparkOS-13.8-arm64_bgN-Unofficial.img.xz
 
-<br>
-<br>
+<br><br>
 
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+<br><br>
 
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
