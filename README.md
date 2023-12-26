@@ -485,8 +485,9 @@ _________________________________________________________
 <br><br>
 
 ## Best in slot (My personal list)
-1. SparkOS
-2. Superior OS
+1. Project Elixir
+2. SparkOS
+3. Superior OS
 
 
 
@@ -495,7 +496,8 @@ _________________________________________________________
 
 
 
-
+<br><br>
+<br><br>
 
 
 ## Privacy
@@ -1208,8 +1210,7 @@ ___________________________________________________
 ___________________________________________________
 ___________________________________________________
 
-<br>
-<br>
+<br><br>
 
 
 
@@ -1217,13 +1218,20 @@ ___________________________________________________
 ## Project Elixir OFFICIAL Generic System Image (ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img) 
 - https://www.pling.com/p/1960767/
 
+<br><br>
+
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+<br><br>
 
 ### Recieve SMS
 - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
+<br><br>
 
+### Review
+- You can set custom GS header Image which is nice. But you do not have music bar playing setting for lockscreen
 
 
 
