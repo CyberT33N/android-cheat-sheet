@@ -1328,7 +1328,8 @@ fastboot reboot recovery
 
 ## lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
 - **WARNING** - In my case I was not able to recieve sms with this ROM**
-- **Instead of using this guide just try to use the GSI Image**
+- **The Guide below was from droidwin. Because the Image is GSI it will be enough to just do this aswell**:
+  -  [Install TWRP](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#twrp)
 
 ## gui
 - https://github.com/francescotescari/XiaoMiToolV2
