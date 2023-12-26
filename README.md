@@ -1581,10 +1581,12 @@ fastboot reboot
 <br><br>
 
 ## Not able to recieve SMS on TrebleDroid - Android 13 GSI 
-- 1. Settings -> Phh Treble Settings -> IMS features
+1. Settings -> Phh Treble Settings -> IMS features
     - Enable "Request IMS network"
     - Enable "Force the presence of 4G Calling setting"
 
-- 2. Click "Install IMS APK for Qualcomm S+ vendor"
+2. Click "Install IMS APK for Qualcomm S+ vendor"
+
+3. Reboot
 
 
