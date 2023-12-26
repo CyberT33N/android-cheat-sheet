@@ -678,7 +678,7 @@ If your phone supports Project Treble, then you see also which file you should d
 <br><br>
 <br><br>
 
-### Allpha Droid
+### Alpha Droid
 
 #### Android 13
 - https://github.com/AlphaDroid-Project
@@ -957,6 +957,47 @@ ___________________________________________________
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+## AlphaDroid OS
+- https://github.com/ChonDoit/treble_alphadroid_patches/releases/
+  
+<br><br>
+
+### Android 13 - UNOFFICIAL - AlphaDroid_A13-arm64-bgS-slim_20231009.img
+- https://github.com/ChonDoit/treble_alphadroid_patches/releases/download/A13-v20231009/AlphaDroid_A13-arm64-bgS-slim_20231009.img.xz
+
+<br>
+<br>
+
+### Install
+- [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
