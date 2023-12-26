@@ -876,6 +876,7 @@ ___________________________________________________
 <br><br>
 
 ### Android 13 - UNOFFICIAL - SuperiorOS_A13-arm64-bgS-slim_20231103.img
+- ** WARNING - Not able to recieve SMS**
 - https://github.com/ChonDoit/treble_superior_patches/releases/download/A13-v20231103/SuperiorOS_A13-arm64-bgS-slim_20231103.img.xz
 
 <br>
