@@ -690,6 +690,64 @@ AlphaDroid
 
 
 
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+### Unlock phone with MI Unlock
+
+1. entiwckler optionen aktivieren
+- Einstellung -> Über das Telefon -> Mehrfach klciken auf MUI-Version
+  - Einstellung -> Weitere Einstellung -> Entwickler Optionen -> OEM Entsperrung & USB Debugging
+    - Verify that everything worked:
+    ```shell
+    adb devices
+    ```
+      - Your device should be shown with id
+
+2. Connect to WLAN
+
+3. Add your Mi Account
+Settings > Mi Account
+
+4. mi unlock status
+- Turn off wifi & enable mobile data
+  - Einstellung -> Weitere Einstellung -> Entwickler Optionen -> MI Entsperrstatus
+    - Click add account
+      - Donwload Unlock Tool (https://en.miui.com/unlock/download_en.html)
+        - http://miuirom.xiaomi.com/rom/u1106245679/7.6.727.43/miflash_unlock_en_7.6.727.43.zip
+          - Make sure that MI Entsperrstatus windows is opended and you use version 7.6.727.43 of MI Unlock to recieve the sms verificytion code
+            - Reload in fastboot
+            ```shell
+            adb reboot bootloader
+            # If needed to go back use fastboot reboot
+            ```
+              - Check devices:
+              ```shell
+              # This should show your device like adb devices
+              fastboot devices
+              ```
+                - Now click unlock via MI Unlock GUI. Normally you have to wait now a few days before Xiaomi allows you to unlock the phone. After the time period is done you can retry it and the unlock should be successfully
+                  - Restart the phone and then setup the phone again because we have to enable USB-Debugging again..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -734,7 +792,8 @@ fastboot reboot recovery
 ## --------------- FASTBOOT METHOD - WIPE --------
 fastboot erase userdata
 fastboot erase cache
-# fastboot erase system
+fastboot erase data
+# fastboot erase system <-- Not sure about this.. A lot of ppl say never touch system or vendor..
 
 
 
@@ -764,54 +823,6 @@ fastboot reboot
 
 
 
-
-
-
-
-
-<br>
-<br>
-___________________________________________________
-___________________________________________________
-
-<br>
-<br>
-
-### Unlock phone with MI Unlock
-
-1. entiwckler optionen aktivieren
-- Einstellung -> Über das Telefon -> Mehrfach klciken auf MUI-Version
-  - Einstellung -> Weitere Einstellung -> Entwickler Optionen -> OEM Entsperrung & USB Debugging
-    - Verify that everything worked:
-    ```shell
-    adb devices
-    ```
-      - Your device should be shown with id
-
-2. Connect to WLAN
-
-3. Add your Mi Account
-Settings > Mi Account
-
-4. mi unlock status
-- Turn off wifi & enable mobile data
-  - Einstellung -> Weitere Einstellung -> Entwickler Optionen -> MI Entsperrstatus
-    - Click add account
-      - Donwload Unlock Tool (https://en.miui.com/unlock/download_en.html)
-        - http://miuirom.xiaomi.com/rom/u1106245679/7.6.727.43/miflash_unlock_en_7.6.727.43.zip
-          - Make sure that MI Entsperrstatus windows is opended and you use version 7.6.727.43 of MI Unlock to recieve the sms verificytion code
-            - Reload in fastboot
-            ```shell
-            adb reboot bootloader
-            # If needed to go back use fastboot reboot
-            ```
-              - Check devices:
-              ```shell
-              # This should show your device like adb devices
-              fastboot devices
-              ```
-                - Now click unlock via MI Unlock GUI. Normally you have to wait now a few days before Xiaomi allows you to unlock the phone. After the time period is done you can retry it and the unlock should be successfully
-                  - Restart the phone and then setup the phone again because we have to enable USB-Debugging again..
 
 
 
