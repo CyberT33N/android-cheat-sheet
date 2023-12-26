@@ -1570,12 +1570,21 @@ fastboot reboot
 
 # FAQ
 
+<br><br>
+
 ## How To Fix Failed To Mount ( System_Root, '/ Vendor & More ( Invalid Argument & Resource Busy )
 1. TWRP -> WIPE -> FORMAT DATA
 2. TWRP -> REBOOT -> RECOVERY
 3. TWRP -> WIPE -> ADVANCED WIPE -> Cache, Dalvik, Data (maybe aswell internal storage but should not be needed)
 
 
+<br><br>
 
+## Not able to recieve SMS on TrebleDroid - Android 13 GSI 
+- 1. Settings -> Phh Treble Settings -> IMS features
+    - Enable "Request IMS network"
+    - Enable "Force the presence of 4G Calling setting"
+
+- 2. Click "Install IMS APK for Qualcomm S+ vendor"
 
 
