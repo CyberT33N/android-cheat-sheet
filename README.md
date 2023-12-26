@@ -1069,6 +1069,9 @@ ___________________________________________________
 ### Recieve SMS
 - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
+### Review
+- As it seems the UI is sometimes not stable but it happens very rar. And I'm not sure how to set custom QS Header image. Also for default no live wallpaper feature
+
 
 
 
