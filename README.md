@@ -61,6 +61,60 @@ android-cheat-sheet
 
 
 
+<br><br>
+<br><br>
+___________________________________________________
+___________________________________________________
+<br><br>
+<br><br>
+
+# Pitch Black Recovery Project
+
+<br><br>
+
+## Redmi Note 12 4G NFC (Topaz) (UNOFFICIAL at the moment) (PBRP-topaz-4.0-20230524-0619-UNOFFICIAL.img)
+- https://sourceforge.net/projects/recovery-topaz/
+- https://sourceforge.net/projects/recovery-topaz/files/TWRP/PBRP-topaz-4.0-20230524-0619-UNOFFICIAL.img.7z/download
+
+<br><br>
+
+### Install
+```shell
+fastboot flash recovery /home/dennis/Dennis/PBRP-topaz-4.0-20230524-0619-UNOFFICIAL.img
+
+fastboot reboot recovery
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
@@ -72,6 +126,7 @@ ___________________________________________________
 
 # OrangeFox Recovery
 
+<br><br>
 
 ## Redmi Note 12 4G NFC (Topaz) (UNOFFICIAL at the moment)
 - https://xdaforums.com/t/unofficial-recovery-13-14-orangefox-recovery-project-tapas-topaz.4600157/
@@ -102,19 +157,41 @@ fastboot reboot recovery
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br>
 <br>
 ___________________________________________________
 ___________________________________________________
 <br>
 <br>
-
-
-
-
-
-
-
 
 
 
