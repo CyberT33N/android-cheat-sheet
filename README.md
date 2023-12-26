@@ -488,6 +488,7 @@ _________________________________________________________
 1. Project Elixir
 2. SparkOS
 3. Superior OS
+4. Derpfest
 
 
 
@@ -966,8 +967,10 @@ ___________________________________________________
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+<br><br>
 
-
+### Review
+- As it seems no custom GS image is changeble. But audio visualizer für lockscreen is integrated. overall ui looks not so good doe.
 
 
 
