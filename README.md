@@ -1331,15 +1331,22 @@ fastboot reboot recovery
 - **The Guide below was from droidwin. Because the Image is GSI it will be enough to just do this aswell**:
   - [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
-## gui
+## GUI
+
+<br><br>
+
+### XiaoMiToolV2 (Deprecated / Not supported any more)
 - https://github.com/francescotescari/XiaoMiToolV2
+
+<br><br>
 
 ## Guides
 - https://droidwin.com/how-to-install-lineageos-on-redmi-note-12-pro/
 - https://droidwin.com/fix-failed-remote-not-enough-space-to-resize-partition/
 
-### Install
+<br><br>
 
+### Install
 1. Get the details about your current MIUI-Version & Androidversion
   - Settings -> About this phone
     - In my case it is:
