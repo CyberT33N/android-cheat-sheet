@@ -939,6 +939,48 @@ fastboot reboot
 
 
 
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+## RisingOS
+
+<br><br>
+
+### Android 13 - UNOFFICIAL - risingOS-v1.4-Elysium-20231001-arm64_bgN.img
+- https://sourceforge.net/projects/misterztr-gsi/files/RisingOS/Android%2013/GApps/risingOS-v1.4-Elysium-20231001-arm64_bgN.img.xz/download
+  
+<br><br>
+
+### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br>
 <br>
@@ -956,6 +998,7 @@ ___________________________________________________
 <br><br>
 
 ### Android 13 - UNOFFICIAL - ProjectBlaze_arm64-ab.img
+- **WARNING - NOT BOOTING INTO SETUP**
 - https://sourceforge.net/projects/any-artifact/files/GSI/ProjectBlaze/v2.5_230224/
 - https://sourceforge.net/projects/any-artifact/files/GSI/ProjectBlaze/v2.5_230224/ProjectBlaze_arm64-ab.img.xz/download
   
