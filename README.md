@@ -716,7 +716,7 @@ fastboot reboot recovery
 ## --------------- FASTBOOT METHOD - WIPE --------
 fastboot erase userdata
 fastboot erase cache
-fastboot erase system
+# fastboot erase system
 
 
 
