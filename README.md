@@ -602,8 +602,8 @@ vboxmanage list usbhost
 
 # Redmi Note 12 4G NFC (Topaz)
 - **As it seems for the moment no official & unofficial Android 14 GSI Image is working**
-- **As it seems for the moment no official & unofficial Android 13 GSI Image is able to recieve SMS**
-  - But some images got Phh Treble Settings which can fix it
+- **As it seems for the moment no official & unofficial Android 13 GSI Image is able to recieve SMS out of the box**
+  - But most GSI images got Phh Treble Settings which can fix it
     - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
@@ -932,7 +932,7 @@ ___________________________________________________
 <br>
 
 ### Android 13 - UNOFFICIAL - CherishOS_A13-arm64-bgS-slim_20231022.img
-**UI Bug - Can not setup installation**
+**UI Bug - Can not setup installation - Maybe random bug**
 - https://github.com/ChonDoit/treble_cherishos_patches/releases
 - https://github.com/ChonDoit/treble_cherishos_patches/releases/download/A13-v20231022/CherishOS_A13-arm64-bgS-slim_20231022.img.xz
 
@@ -999,7 +999,6 @@ ___________________________________________________
 <br><br>
 
 ### Android 13 - UNOFFICIAL - SuperiorOS_A13-arm64-bgS-slim_20231103.img
-- ** WARNING - Not able to recieve SMS**
 - https://github.com/ChonDoit/treble_superior_patches/releases/download/A13-v20231103/SuperiorOS_A13-arm64-bgS-slim_20231103.img.xz
 
 <br>
@@ -1008,7 +1007,11 @@ ___________________________________________________
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
+### Review
+- Not so much custom featurs and ui not so great
 
 
 
@@ -1160,12 +1163,13 @@ ___________________________________________________
 
 
 ## Project Elixir OFFICIAL Generic System Image (ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img) 
-- **WARNING - Recieving of sms is not working**
 - https://www.pling.com/p/1960767/
 
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -1230,6 +1234,8 @@ ___________________________________________________
 #### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -1296,6 +1302,8 @@ ___________________________________________________
 #### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -1411,7 +1419,6 @@ fastboot reboot recovery
 
 
 ## lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
-- **WARNING** - In my case I was not able to recieve sms with this ROM**
 - **The Guide below was from droidwin. Because the Image is GSI it will be enough to just do this aswell**:
   - [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
@@ -1517,6 +1524,9 @@ fastboot reboot
 13. (optional) Instal Substratum Theme
     - Most themes are paid only
    
+
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
