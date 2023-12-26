@@ -608,10 +608,6 @@ vboxmanage list usbhost
 <br><br>
 <br><br>
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
 
 
 # Redmi Note 12 4G NFC (Topaz)
@@ -911,6 +907,89 @@ Then boot into your new oeprating system:
 ```
 fastboot reboot
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+
+
+## ProjectBlaze
+
+<br><br>
+
+### Android 13 - UNOFFICIAL - ProjectBlaze_arm64-ab.img
+- https://sourceforge.net/projects/any-artifact/files/GSI/ProjectBlaze/v2.5_230224/
+- https://sourceforge.net/projects/any-artifact/files/GSI/ProjectBlaze/v2.5_230224/ProjectBlaze_arm64-ab.img.xz/download
+  
+<br><br>
+
+### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
