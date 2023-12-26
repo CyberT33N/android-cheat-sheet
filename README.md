@@ -944,7 +944,7 @@ ___________________________________________________
 <br>
 
 ### Android 13 - UNOFFICIAL - CherishOS_A13-arm64-bgS-slim_20231022.img
-**UI Bug - Can not setup installation - Maybe random bug**
+**UI Bug - Can not setup installation - Only see background**
 - https://github.com/ChonDoit/treble_cherishos_patches/releases
 - https://github.com/ChonDoit/treble_cherishos_patches/releases/download/A13-v20231022/CherishOS_A13-arm64-bgS-slim_20231022.img.xz
 
