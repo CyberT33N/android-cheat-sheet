@@ -476,15 +476,17 @@ _________________________________________________________
 <br><br>
 <br><br>
 
-## Best in slot
+## Best in slot (My personal list)
+1. SparkOS
+2. Superior OS
 
-### Project Elexir
-- https://projectelixiros.com/download
 
-### Evolution X
-- https://evolution-x.org/download
 
-### Lineage OS
+
+
+
+
+
 
 
 
