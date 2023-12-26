@@ -725,10 +725,21 @@ fastboot erase cache
 
 
 fastboot flash system /home/dennis/Dennis/ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img
+```
+- If error "not enough space to resize partition" (https://droidwin.com/fix-failed-remote-not-enough-space-to-resize-partition/)
+```shell
+# Search for (bootloader) current-slot
+fastboot getvar all
 
-fastboot reboot
+# If it is (bootloader) current-slot:b
+fastboot delete-logical-partition product_b
+fastboot flash system_b /home/dennis/Documents/dennis/lineage-20.0-20231214-UNOFFICIAL-arm64_bgN.img
 ```
 
+Then boot into your new oeprating system:
+```
+fastboot reboot
+```
 
 
 
