@@ -487,8 +487,9 @@ _________________________________________________________
 ## Best in slot (My personal list)
 1. Project Elixir
 2. SparkOS
-3. Superior OS
-4. Derpfest
+3. Evolution X
+4. Superior OS
+5. Derpfest
 
 
 
@@ -1400,28 +1401,36 @@ ___________________________________________________
 
 ## Evolution X
 
+<br><br>
 
 ### Android 14 -  (evolution_arm64-ab-8.0.3-unofficial-20231201.img)
 - **NOT WORKING - Boots back into recvory**
 - https://github.com/KoysX/treble_build_evo/releases
   - https://github.com/KoysX/treble_build_evo/releases/download/v2023.12.01/evolution_arm64-ab-8.0.3-unofficial-20231201.img.xz
 
+<br><br>
+
 #### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
 
+
+
+
 <br><br>
 <br><br>
 
-### Android 13 - (evolution_arm64-ab-7.9.7-unofficial-20230823.img.xz)
+### Android 13 - (evolution_arm64-ab-7.9.7-unofficial-20230823.img)
 - https://github.com/ponces/treble_build_evo/releases
 
 #### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
-### Recieve SMS
+#### Recieve SMS
 - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
+#### Review
+- Not sure how to set custom GS Header Image. But audio visuliaisier for lockscreen is there. Over aller medium - good
 
 
 
