@@ -996,6 +996,7 @@ ___________________________________________________
 <br><br>
 
 ### Android 13 - UNOFFICIAL - AlphaDroid_A13-arm64-bgS-slim_20231009.img
+- **Warning setup process not working - just background image**
 - https://github.com/ChonDoit/treble_alphadroid_patches/releases/download/A13-v20231009/AlphaDroid_A13-arm64-bgS-slim_20231009.img.xz
 
 <br>
