@@ -933,6 +933,41 @@ fastboot reboot
 
 
 
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+
+<br>
+<br>
+
+
+## VoltageOS
+
+<br><br>
+
+### Android 13 - UNOFFICIAL - VoltageOS-2.8-EOL-20230920-UNOFFICIAL_bgN.img
+- https://github.com/ahnet-69/treble_voltage/releases/download/2.8-EOL-20230920/VoltageOS-2.8-EOL-20230920-UNOFFICIAL_bgN.img.xz
+
+<br><br>
+
+### Install
+-  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+
+<br><br>
+
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -953,6 +988,7 @@ ___________________________________________________
 <br><br>
 
 ### Android 13 - UNOFFICIAL - risingOS-v1.4-Elysium-20231001-arm64_bgN.img
+- **WARNING - not booting into setup - just background image**
 - https://sourceforge.net/projects/misterztr-gsi/files/RisingOS/Android%2013/GApps/risingOS-v1.4-Elysium-20231001-arm64_bgN.img.xz/download
   
 <br><br>
@@ -960,6 +996,11 @@ ___________________________________________________
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+
+<br><br>
+
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -1006,6 +1047,11 @@ ___________________________________________________
 
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+<br><br>
+
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -1071,6 +1117,8 @@ ___________________________________________________
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
+<br><br>
+
 
 
 
@@ -1094,6 +1142,11 @@ ___________________________________________________
 
 ### Review
 - As it seems no custom GS image is changeble. But audio visualizer für lockscreen is integrated. overall ui looks not so good doe.
+
+<br><br>
+
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -1134,6 +1187,11 @@ ___________________________________________________
 
 ### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+<br><br>
+
+### Recieve SMS
+- [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -1181,11 +1239,12 @@ ___________________________________________________
 - **Warning setup process not working - just background image**
 - https://github.com/ChonDoit/treble_alphadroid_patches/releases/download/A13-v20231009/AlphaDroid_A13-arm64-bgS-slim_20231009.img.xz
 
-<br>
-<br>
+<br><br>
 
 ### Install
 - [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
+
+<br><br>
 
 ### Recieve SMS
 - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
