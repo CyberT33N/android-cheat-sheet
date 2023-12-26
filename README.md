@@ -5,9 +5,17 @@ android-cheat-sheet
 
 
 
+## Recovery
+
+### Best Recovery Tool
+- For my opinion
+  1. PItchBlack
+  2. OrangeFox
+  3. TWRP
 
 
-
+<br><br>
+<br><br>
 
 ### Understand what partition you WIPE
 - https://xdaforums.com/t/info-android-device-partitions-and-filesystems.3586565/
