@@ -360,20 +360,22 @@ e) Download Root Checker Basic APP and verify if your are rooted
 #### After Magisk 24
 0. Hide Magis app via settings
 1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
-2. Run YASNAC SafetyNet Checker and pass
+2. 
+3. Run YASNAC SafetyNet Checker and pass
     - If you can not pass download (https://www.youtube.com/watch?v=rggvk3DPD1o):
         - https://github.com/kdrag0n/safetynet-fix/releases
-            - Flash .zip -> Reboot -> re-run YASNAC SafetyNet Checker and pass
-              - If not go to step 3
-3. Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
+            - Install .zip via magisk module section -> Reboot -> re-run YASNAC SafetyNet Checker and pass
+              - If not passing go to step 3
+                
+4. Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
    - Make sure Universal fix and shamiko modules are sucessfully enabled
      - If not work try to go to step 4
        
-4. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
+5. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
    - At google play service only enable:
     - com.google.com.android.gms 
     - com.google.android.gms.unstable
-5. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
+6. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
 
 <br><br>
 <br><br>
