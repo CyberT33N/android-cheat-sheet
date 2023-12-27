@@ -671,11 +671,30 @@ If your phone supports Project Treble, then you see also which file you should d
 
 ## official ROMS
 
+
+<br><br>
+<br><br>
+
+
+### DroidX
+
+<br><br>
+
+#### Android 13
+- https://sourceforge.net/projects/droidxui-releases/files/topaz/droidx-1.7-20231223-0504-OFFICIAL-topaz-Gapps.zip/download
+
+
+
+
+
+
 <br><br>
 <br><br>
 
 
 ### Cherish OS
+
+<br><br>
 
 #### Android 13
 - https://cherishos.com/
