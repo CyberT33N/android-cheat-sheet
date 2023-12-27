@@ -459,11 +459,12 @@ e) Download Root Checker Basic APP and verify if your are rooted
     - If you can not pass download (https://www.youtube.com/watch?v=rggvk3DPD1o):
         - https://github.com/kdrag0n/safetynet-fix/releases
             - Install .zip via magisk module section -> Reboot -> re-run YASNAC SafetyNet Checker and pass
-              - If not passing go to step 3
-                
+              - If not passing install LSposed (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#lsposed-framework)
+                - If not passing go to step 4
+                 
 4. Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
    - Make sure Universal fix and shamiko modules are sucessfully enabled
-     - If not work try to go to step 4
+     - If not work try to go to step 5
        
 5. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
    - At google play service only enable:
