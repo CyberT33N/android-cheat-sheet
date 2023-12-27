@@ -272,6 +272,7 @@ ___________________________________________________
 <br><br>
 
 ### Pixelify
+- **Pixel-Live-Wallpapers tot really working with ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img on Redmi Note 12 4G NFC (Topaz) - APP is crashing or only some Wallpaper are moving - Also everything is very unsmooth when using it**
 - https://telegra.ph/Pixelify-Troubleshooting-guide-03-12
 - https://github.com/Kingsman44/Pixelify
 - https://www.pling.com/p/1794976
