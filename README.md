@@ -606,12 +606,13 @@ _________________________________________________________
 <br><br>
 
 ## Best in slot (My personal list)
-1. Project Elixir
-2. SparkOS
-3. Evolution X
-4. Superior OS
-5. Derpfest
-6. VoltageOS
+1. LineageOS with Pixelify
+2. Project Elixir
+3. SparkOS
+4. Evolution X
+5. Superior OS
+6. Derpfest
+7. VoltageOS
 
 
 
