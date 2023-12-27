@@ -254,16 +254,86 @@ fastboot reboot recovery
 
 
 
-<br>
-<br>
+<br><br>
+<br><br>
 ___________________________________________________
 ___________________________________________________
-<br>
-<br>
+<br><br>
+<br><br>
 
 
 
 # Magisk
+
+<br><br>
+
+## Best Modules
+
+<br><br>
+
+### Pixelify
+- https://telegra.ph/Pixelify-Troubleshooting-guide-03-12
+- https://github.com/Kingsman44/Pixelify
+- https://www.pling.com/p/1794976
+
+<br><br>
+
+#### Install
+
+<br><br>
+
+##### Dependencies
+- Make sure device is rooted with magisk
+- Enable Zygsik (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#root-with-magisk-by-using-twrp-recovery--pitch-black-recovery)
+- Add Google Play Services and inside com.google.android.gms.unstable in DenyList
+
+
+1.  As usually install .zip via modules section of magisk
+```
+
+Quick Phrase spoofing (Not needed):
+- Quick phrases are exactly what the name implies – phrases that you can say in earshot of your Google Pixel to perform a certain action.
+
+<br><br>
+
+next generation Assistant (optional):
+- https://blog.google/products/assistant/next-generation-google-assistant-io/
+
+<br><br>
+
+Skip boot logo replacement if you can otherwhise you remove the nice one from your custom rom
+
+<br><br>
+
+Install Pixel Launcher
+
+<br><br>
+
+Install Google settings service
+```
+
+2. Reboot
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+#### Uninstall
+- Due to some magisk uninstall.sh limitation whole pixelify cannot be removed by automatically.
+  - To remove completely clear data of Google play services and Google Dialer and then reboot.
+
+
+
+
+
+
+<br><br>
+<br><br>
+
 
 ## Root with Magisk by using TWRP Recovery / Pitch Black Recovery
 
