@@ -265,17 +265,24 @@ ___________________________________________________
 
 # Magisk
 
-## Root with Magisk by using TWRP
+## Root with Magisk by using TWRP Recovery / Pitch Black Recovery
 
+<br><br>
 <br><br>
 
 ## Magisk v26.4 - Redmi Note 12 4G NFC (Topaz) - GSI
 
+<br><br>
+
 ### Guide 
 - https://www.youtube.com/watch?v=7eR7bVu-e4s
 
+<br><br>
+
 1. Download latest Magisk
 - https://github.com/topjohnwu/Magisk/releases/tag/v26.4
+
+<br><br>
 
 2 Reboot recovery
 ```shell
@@ -283,8 +290,12 @@ adb reboot bootloader
 fastboot reboot recovery
 ```
 
+<br><br>
+
 3. Install
-a) TWRP -> Advanced -> ADB Sideload -> SWIPE (No need to check anything)
+a) TWRP Recovery / Pitch Black Recovery -> Advanced -> ADB Sideload -> SWIPE (No need to check anything)
+
+<br><br>
 
 b) Check devices
 ```
@@ -292,16 +303,22 @@ b) Check devices
 adb devices
 ```
 
+<br><br>
+
 c)
 ```
-adb sideload /home/dennis/Documents/dennis/Magisk-v26.4.apk
+adb sideload /home/dennis/Dennis/Magisk-v26.4.apk
 ```
 - Click Reboot System
+
+<br><br>
 
 d) Open Magisk app
 - It will ask for re-flash > Click direct installation -> Reboot Button
 
-d) Download Root Checker Basic APP and verify if your are rooted
+<br><br>
+
+e) Download Root Checker Basic APP and verify if your are rooted
 
 
 
