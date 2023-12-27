@@ -490,6 +490,7 @@ _________________________________________________________
 3. Evolution X
 4. Superior OS
 5. Derpfest
+6. VoltageOS
 
 
 
@@ -951,17 +952,19 @@ ___________________________________________________
 
 <br><br>
 
-### Install
+#### Install
 -  [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
 
 <br><br>
 
-### Recieve SMS
+#### Recieve SMS
 - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
+<br><br>
 
-
+####
+- Got pulse audio visuliazer but not really much UI modifications and no custom GS header image
 
 
 
