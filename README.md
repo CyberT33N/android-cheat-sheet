@@ -269,7 +269,7 @@ ___________________________________________________
 
 <br><br>
 
-## Magisk v26.4 - Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
+## Magisk v26.4 - Redmi Note 12 4G NFC (Topaz) - GSI
 
 ### Guide 
 - https://www.youtube.com/watch?v=7eR7bVu-e4s
