@@ -1055,7 +1055,7 @@ Then boot into your new oeprating system:
 ```
 fastboot reboot
 ```
-- **Make sure to do this directly after or it will maybe later not work after root**
+- **Make sure to do this directly after reboot (before the setup process) or it will maybe later not work after root**
   - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
@@ -2057,6 +2057,8 @@ fastboot reboot
 <br><br>
 
 ## Not able to recieve SMS on TrebleDroid - Android 13 GSI 
+0. **DO NOT sign-in to google when you setup the ROM for the first time. Also if you will not get asked for your SIM CARD pin or if it will not get dtected inside of the setup then something went wrong and you can reflash the rom.**
+
 1. Enable Mobile Data -> Set 4g as default
 
 2. Settings -> Phh Treble Settings -> IMS features
