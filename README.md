@@ -299,16 +299,22 @@ ___________________________________________________
 - https://github.com/Kingsman44/Pixelify
 - https://www.pling.com/p/1794976
 
+
+#### Good2Know
+- You can not add new live wallpapers.. So it is a bit useless to install pixelify if you only want live wallpapers
+
 <br><br>
 
 #### Supported OS & Devices
 
-#### Working 
-- lineage-20.0-20231214-UNOFFICIAL-arm64_bgN.img on Redmi Note 12 4G NFC (Topaz)
+<br><br>
 
 #### Not working
 - **Pixel-Live-Wallpapers not really working with ProjectElixir_3.13_arm64_bgN-13.0-20231105-0917-OFFICIAL.img on Redmi Note 12 4G NFC (Topaz) - APP is crashing or only some Wallpaper are moving - Also everything is very unsmooth when using it**
+- lineage-20.0-20231214-UNOFFICIAL-arm64_bgN.img on Redmi Note 12 4G NFC (Topaz)
+  - Pixel Live Wallpapers is working doe but Google settings are not working anymore. But in my case I never was sign-in when I installed pixelify and that was maybe the problem. So if you install the ROM and sign-in to google and then install pixelify and follow the instructions from github then it may work..**
 
+  
 #### Install
 
 <br><br>
@@ -415,7 +421,7 @@ adb sideload /home/dennis/Dennis/Magisk-v26.4.apk
 <br><br>
 
 d) Open Magisk app
-- It will ask for re-flash > Click direct installation -> Reboot Button
+- It will ask for re-flash (If not open magisk app and click install at magisk icon) > Click direct installation -> Reboot Button
 
 <br><br>
 
@@ -1049,6 +1055,8 @@ Then boot into your new oeprating system:
 ```
 fastboot reboot
 ```
+- **Make sure to do this directly after or it will maybe later not work after root**
+  - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
 
@@ -2049,12 +2057,14 @@ fastboot reboot
 <br><br>
 
 ## Not able to recieve SMS on TrebleDroid - Android 13 GSI 
-1. Settings -> Phh Treble Settings -> IMS features
+1. Enable Mobile Data -> Set 4g as default
+
+2. Settings -> Phh Treble Settings -> IMS features
     - Enable "Request IMS network"
     - Enable "Force the presence of 4G Calling setting"
 
-2. Click "Install IMS APK for Qualcomm S+ vendor"
+3. Click "Install IMS APK for Qualcomm S+ vendor"
 
-3. Reboot
+4. Reboot
 
 
