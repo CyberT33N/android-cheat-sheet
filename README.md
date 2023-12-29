@@ -6,13 +6,87 @@ android-cheat-sheet
 
 ## Nice apks
 
+<br><br>
+
 ### Wallpaper engine
 - https://play.google.com/store/apps/details?id=io.wallpaperengine.weclient
 
 
 
+<br><br>
+<br><br>
 
 
+
+
+
+
+
+## KWLP (PAID)
+- https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_US
+- https://www.youtube.com/watch?v=4S8aiCl-ktc
+
+<br><br>
+
+### requirements
+- https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher&hl=de&gl=US
+
+<br><br>
+
+#### Install
+1. Download Nova Launcher
+2. Settings -> Apps -> Default Apps -> Start-App -> Choose Nova Launcher
+3. Download KLWP Live Wallpaper Maker (https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_US)
+4. Download KLWP Live Wallpaper Pro Key (https://play.google.com/store/apps/details?id=org.kustom.wallpaper.pro&hl=de&gl=US)
+5. Download any KLWP Preset but do not open
+  - Alternative you can do it in step 9 aswell there is a section
+
+6. Remove everything from home screen aswell from other screens
+  - If you can not remove search bar widget -> Nova Launcher Settings -> desktop -> search -> suchleistenplatzierung 'none'
+  - You should also disable dock
+
+7. Hold screen and click Settings -> erscheinungsbild -> Unclick show notification bar
+8. Hold screen and click Settings -> Backup blank home screeen to not do it again in future
+9. Hold screen and click Wallpapers -> Click live wallpapers -> Kustom -> click settings icon -> Load presets -> select theme and apply (save icon) -> apply walppaper - select home and lock screen
+
+10. done :) 
+
+
+<br><br>
+<br><br>
+
+#### FAQ
+
+<br><br>
+
+##### I can not apply live wallpaper anymore
+- try to open the app instead of your theme
+
+<br><br>
+
+##### I can not change theme anymore
+- Change to default live wallpaper and then apply again theme
+
+<br><br>
+
+##### touch on live wallpaper not working
+- Try going into Settings for Kustom. Go to Advanced settings. There will be a toggle for "Use Direct Touch". Toggle it. See if that helps
+- close all opend apps
+
+<br><br>
+<br><br>
+
+#### Themes
+
+<br><br>
+
+##### PAID
+- https://play.google.com/store/apps/details?id=cyberthemev1neon.kustom.pack&hl=de&gl=US
+
+<br><br>
+
+##### FREE
+- https://play.google.com/store/apps/details?id=sharedthemecollectionforklwpvol2.kustom.pack
 
 
 
@@ -368,8 +442,74 @@ Install Google settings service
 
 
 
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
+
+<br><br>
+<br><br>
+
+<br><br>
+<br><br>
+
+
+
+
+
+## Iconify
+- https://github.com/Mahmud0808/Iconify/releases
+
+
+### requirements
+- Android 12+ Pixel / AOSP based custom ROM
+- Magisk (Recommended) or KernelSU
+- LSPosed
+
+### Install
+1. Download and install the Iconify app.
+
+2. Open the app, grant root permission and follow the instructions.
+
+3. Wait for it to finish generating rom specific module.
+
+4. Reboot the device when prompted, profit!
+
+5. Open LSposed -> hold iconify and selet re-optimize. Then enable module and then restart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+<br><br>
+<br><br>
+
+
+<br><br>
+<br><br>
+
 
 
 ## Root with Magisk by using TWRP Recovery / Pitch Black Recovery
@@ -1707,6 +1847,42 @@ ___________________________________________________
 
 
 
+<br><br>
+<br><br>
+___________________________________________________
+___________________________________________________
+
+<br><br>
+<br><br>
+
+
+
+
+
+
+
+# AOSP
+
+<br><br>
+
+## Android 14.0 v2023.10.14 - (aosp-arm64-ab-gapps-14.0-20231014.img)
+- **NOT WORKING - goes into Recovery again**
+- https://github.com/ponces/treble_aosp/releases/tag/v2023.10.14
+- https://github.com/ponces/treble_aosp/releases/download/v2023.10.14/aosp-arm64-ab-gapps-14.0-20231014.img.xz
+
+<br><br>
+
+## Android  13.0 v2023.09.19 - (aosp-arm64-ab-gapps-13.0-20230919.img)
+- **Warning - Google play protect is not working out of the box**
+- https://github.com/ponces/treble_aosp/releases/download/v2023.09.19/aosp-arm64-ab-gapps-13.0-20230919.img.xz
+
+
+
+
+
+
+
+
 
 
 
@@ -1877,7 +2053,21 @@ fastboot reboot recovery
 
 
 
-## lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
+# LineageOS 20 
+
+<br><br>
+<br><br>
+
+## Light - Android 13 - lineage-20.0-20231212-UNOFFICIAL-gsi_arm64_gN.img
+- https://sourceforge.net/projects/andyyan-gsi/files/lineage-20-light/lineage-20.0-20231212-UNOFFICIAL-gsi_arm64_gN.img.xz/download
+- **Warning - Google play protect is not working out of the box. Also I experienced restart into Recovery idk why**
+
+
+<br><br>
+<br><br>
+
+
+## TD - Android 13 - lineage-20.0-20231214-UNOFFICIAL-arm64_bgN
 - **The Guide below was from droidwin. Because the Image is GSI it will be enough to just do this aswell**:
   - [Install any Generic System Image (GSI)](https://github.com/CyberT33N/android-cheat-sheet/?tab=readme-ov-file#how-to-install-any-generic-system-image-gsi)
 
@@ -2057,8 +2247,6 @@ fastboot reboot
 <br><br>
 
 ## Not able to recieve SMS on TrebleDroid - Android 13 GSI 
-0. **DO NOT sign-in to google when you setup the ROM for the first time. Also if you will not get asked for your SIM CARD pin or if it will not get dtected inside of the setup then something went wrong and you can reflash the rom.**
-
 1. Enable Mobile Data -> Set 4g as default
 
 2. Settings -> Phh Treble Settings -> IMS features
@@ -2068,5 +2256,18 @@ fastboot reboot
 3. Click "Install IMS APK for Qualcomm S+ vendor"
 
 4. Reboot
+
+If above is not working with any GSI treble image then try to flash:
+- https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#project-elixir-official-generic-system-image-projectelixir_313_arm64_bgn-130-20231105-0917-officialimg
+
+Then:
+- Go to sms settings and set 4g to default and turn on force 4g
+  - Treble Settings -> check both settings and then install qualcom apk fix
+    - reboot
+      - Then I clicked Treble Settings -> create apn -> Then I gues I rebooted again
+        - Then I opend magisk. Somehow it was already installed.. Maybe because I did not clean the magisk partition oder project elixir got it pre installed?
+
+
+Then for some reasons at any point recieving sms stopped working but starts working again after reboot. However, this full logic of recieving sms ist extremly unstable and does not make any sense on Redmi Note 12 4G NFC (Topaz) with any treble gsi. Not sure what the problem is doe. However I noticed aber installing 2 times project elixir gsi sms recieving starts working again. So whatever they did in this rom is a fix to this topic.
 
 
