@@ -44,6 +44,7 @@ android-cheat-sheet
 6. Remove everything from home screen aswell from other screens
   - If you can not remove search bar widget -> Nova Launcher Settings -> desktop -> search -> suchleistenplatzierung 'none'
   - You should also disable dock
+  - You should add 3 home screens because most themes use multiple screens for effects
 
 7. Hold screen and click Settings -> erscheinungsbild -> Unclick show notification bar
 8. Hold screen and click Settings -> Backup blank home screeen to not do it again in future
@@ -77,17 +78,7 @@ android-cheat-sheet
 <br><br>
 
 #### Themes
-
-<br><br>
-
-##### PAID
-- https://play.google.com/store/apps/details?id=cyberthemev1neon.kustom.pack&hl=de&gl=US
-
-<br><br>
-
-##### FREE
-- https://play.google.com/store/apps/details?id=sharedthemecollectionforklwpvol2.kustom.pack
-
+- Just search in play store for kwlp
 
 
 
