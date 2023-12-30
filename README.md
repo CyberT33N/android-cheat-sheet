@@ -2256,7 +2256,7 @@ Then:
   - Treble Settings -> check both settings and then install qualcom apk fix
     - reboot
       - Then I clicked Treble Settings -> create apn -> Then I gues I rebooted again
-        - Then I opend magisk. Somehow it was already installed.. Maybe because I did not clean the magisk partition oder project elixir got it pre installed?
+        - Then I opend magisk icon and direct installed it. Somehow it was already installed.. Maybe because I did not clean the magisk partition oder project elixir got it pre installed?
 
 
 Then for some reasons at any point recieving sms stopped working but starts working again after reboot. However, this full logic of recieving sms ist extremly unstable and does not make any sense on Redmi Note 12 4G NFC (Topaz) with any treble gsi. Not sure what the problem is doe. However I noticed aber installing 2 times project elixir gsi sms recieving starts working again. So whatever they did in this rom is a fix to this topic.
