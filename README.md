@@ -4,6 +4,40 @@ android-cheat-sheet
 
 
 
+
+
+
+## Android 13
+
+<br><br>
+
+### How to bring back Android's 3-button navigation
+- From Settings, go to System, Gestures, and then tap System Navigation. Gesture navigation will be selected by default, but you can tap 3-button navigation to make buttons appear at the bottom of your screen.
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________________________
+__________________________________________________________________________
+<br><br>
+<br><br>
+
+
+
+
 ## Nice apks
 
 <br><br>
@@ -13,11 +47,24 @@ android-cheat-sheet
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
-
-
-
+__________________________________________________________________________
+__________________________________________________________________________
+<br><br>
+<br><br>
 
 
 
