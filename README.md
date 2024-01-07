@@ -556,7 +556,10 @@ Install Google settings service
 <br><br>
 
 ## Magisk v26.4 - Redmi Note 12 4G NFC (Topaz) - GSI
-
+- If you have problem with recieving sms on gsi treble images you may read this here before installing magisk or try the steps below
+  - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#not-able-to-recieve-sms-on-trebledroid---android-13-gsi
+ 
+  - 
 <br><br>
 
 ### Guide 
@@ -641,27 +644,28 @@ e) Download Root Checker Basic APP and verify if your are rooted
 <br><br>
 
 ### Hide apps from being detected as root
+- If you have problem with recieving sms on gsi treble images you may read this here before installing magisk or try the steps below
+  - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#not-able-to-recieve-sms-on-trebledroid---android-13-gsi
 
 #### After Magisk 24
 0. Hide Magis app via settings
 1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
-2. 
-3. Run YASNAC SafetyNet Checker and pass
-    - If you can not pass download (https://www.youtube.com/watch?v=rggvk3DPD1o):
+2. Download YASNAC SafetyNet Checker
+3. Download safetynet-fix (https://www.youtube.com/watch?v=rggvk3DPD1o):
         - https://github.com/kdrag0n/safetynet-fix/releases
-            - Install .zip via magisk module section -> Reboot -> re-run YASNAC SafetyNet Checker and pass
-              - If not passing install LSposed (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#lsposed-framework)
-                - If not passing go to step 4
-                 
-4. Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
-   - Make sure Universal fix and shamiko modules are sucessfully enabled
+            - Install .zip via magisk module section -> Reboot
+
+4. Install LSposed (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#lsposed-framework)
+  - Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
+   - Make sure Universal fix and shamiko modules are sucessfully enabled. Try pass YASNAC SafetyNet Checker and check any app that is detecting you from root. E.g. freenow
      - If not work try to go to step 5
        
-5. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
+6. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
    - At google play service only enable:
     - com.google.com.android.gms 
     - com.google.android.gms.unstable
-6. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
+
+7. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
 
 <br><br>
 <br><br>
@@ -904,6 +908,38 @@ vboxmanage list usbhost
 
 
 
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+# Galaxy Tab 10.1 - GT-P7500
+
+<br><br>
+
+## Ipad ROM
+- https://www.youtube.com/watch?v=eZG3lBX0Vx0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
 <br><br>
@@ -922,6 +958,7 @@ vboxmanage list usbhost
 - **As it seems for the moment no official & unofficial Android 13 GSI Image is able to recieve SMS out of the box**
   - But most GSI images got Phh Treble Settings which can fix it
     - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
+     - **But nothing is really stable beside of the rom from Project Elixir**
 
 
 <br><br>
@@ -2274,6 +2311,16 @@ fastboot reboot
 
 # FAQ
 
+
+## Push files into internal storage from twrp
+- If adb devices is working when you into twrp recovery you can use adb push:
+```shell
+adb push update.zip /sdcard
+```
+- if not working try disabling MTP from TWRP "Mount" men
+
+
+<br><br>
 <br><br>
 
 ## How To Fix Failed To Mount ( System_Root, '/ Vendor & More ( Invalid Argument & Resource Busy )
@@ -2282,6 +2329,7 @@ fastboot reboot
 3. TWRP -> WIPE -> ADVANCED WIPE -> Cache, Dalvik, Data (maybe aswell internal storage but should not be needed)
 
 
+<br><br>
 <br><br>
 
 ## Not able to recieve SMS on TrebleDroid - Android 13 GSI 
@@ -2307,5 +2355,47 @@ Then:
 
 
 Then for some reasons at any point recieving sms stopped working but starts working again after reboot. However, this full logic of recieving sms ist extremly unstable and does not make any sense on Redmi Note 12 4G NFC (Topaz) with any treble gsi. Not sure what the problem is doe. However I noticed aber installing 2 times project elixir gsi sms recieving starts working again. So whatever they did in this rom is a fix to this topic.
+
+**Carefully** Then I installed LSposed Shamiko and recieving of sms stopped working again.
+- https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#hide-apps-from-being-detected-as-root
+  - I deinstalled shamiko and then rebooted, then installed it again and rebooted
+      - Then I deinstalled org.codeaurora.ims and removed apn and then did everything again from Step 1
+
+
+Nothing helped?
+- **Maybea a good approche in general if it does stop working again on any GSI is deinstalling org.codeaurora.ims and removed apn and then do everything again from Step 1**
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+### Alternatives fixes (not tested)
+
+#### Way 1
+```
+For anyone is still having trouble with receiving messages on Pie GSIs(installed apk but still not working):
+1. Download and install the apk in this thread
+2. Rename the apk into "org.codeaurora.ims"(this is optional; I don't know if this changes anything).
+3. Move the apk to /vendor/overlay
+4. Reboot
+5. Switch network to LTE
+6. Done
+This currently only works works on Pie GSIs only. I have tested(HavocOS and ArrowOS).
+```
+
+#### Way 2 (Depracted?)
+```
+You'll need my latest release v212.
+Download https://treble.phh.me/ims-q.apk
+Install it just like you would install any apk, by either clicking on it from file manager, or with adb install
+Download https://treble.phh.me/android.hardwa...ephony.ims.xml
+Push it to /system/etc/permissions: adb root & adb remount & adb push android.hardware.telephony.ims.xml /system/etc/permissions/android.hardware.telephony.ims.xml
+Reboot, unlock your device, wait one minute. Reboot again, unlock your device, wait one minute.
+Reboot. Wait one minute, go in *#*#4636#*#* and see if IMS works.
+```
 
 
