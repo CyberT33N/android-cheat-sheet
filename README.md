@@ -45,6 +45,12 @@ __________________________________________________________________________
 ### Wallpaper engine
 - https://play.google.com/store/apps/details?id=io.wallpaperengine.weclient
 
+### Keyboard
+- Gboard
+  
+- Microsoft Swift Key
+  - With Dall-E Image Generation
+ 
 
 
 
