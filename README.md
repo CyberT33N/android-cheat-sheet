@@ -2347,29 +2347,26 @@ adb push update.zip /sdcard
 
 3. Click "Install IMS APK for Qualcomm S+ vendor"
 
-4. Reboot
+4. Click "Create APN"
+
+5. Reboot
 
 If above is not working with any GSI treble image then try to flash:
 - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#project-elixir-official-generic-system-image-projectelixir_313_arm64_bgn-130-20231105-0917-officialimg
 
 Then:
-- Go to sms settings and set 4g to default and turn on force 4g
-  - Treble Settings -> check both settings and then install qualcom apk fix
-    - reboot
-      - Then I clicked Treble Settings -> create apn -> Then I gues I rebooted again
-        - Then I opend magisk icon and direct installed it. Somehow it was already installed.. Maybe because I did not clean the magisk partition oder project elixir got it pre installed?
+- Then do everything from Step 1 again and rebooot.
+    - If it now worked ... Then I opend magisk icon and direct installed it. Somehow it was already installed.. Maybe because I did not clean the magisk partition oder project elixir got it pre installed?
 
-
-Then for some reasons at any point recieving sms stopped working but starts working again after reboot. However, this full logic of recieving sms ist extremly unstable and does not make any sense on Redmi Note 12 4G NFC (Topaz) with any treble gsi. Not sure what the problem is doe. However I noticed aber installing 2 times project elixir gsi sms recieving starts working again. So whatever they did in this rom is a fix to this topic.
+Then for some reasons at any point recieving sms stopped working but starts working again after reboot. However, this full logic of recieving sms ist extremly unstable and does not make any sense on Redmi Note 12 4G NFC (Topaz) with any treble gsi. Not sure what the problem is doe. However I noticed aber installing 2 times project elixir gsi sms recieving starts working again but is also really stable after rebooting... So whatever they did in this rom is a fix to this topic.
 
 **Carefully** Then I installed LSposed Shamiko and recieving of sms stopped working again.
 - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#hide-apps-from-being-detected-as-root
   - I deinstalled shamiko and then rebooted, then installed it again and rebooted
       - Then I deinstalled org.codeaurora.ims and removed apn and then did everything again from Step 1
 
-
 Nothing helped?
-- **Maybea a good approche in general if it does stop working again on any GSI is deinstalling org.codeaurora.ims and removed apn and then do everything again from Step 1**
+- **Maybea a good approche in general if it does stop working again on any GSI or after you reboot and it stop work ist is deinstalling org.codeaurora.ims and removed apn and then do everything again from Step 1-5**
 
 
 
