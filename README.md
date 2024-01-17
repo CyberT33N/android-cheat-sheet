@@ -2358,7 +2358,7 @@ Then:
 - Then do everything from Step 1 again and rebooot.
     - If it now worked ... Then I opend magisk icon and direct installed it. Somehow it was already installed.. Maybe because I did not clean the magisk partition oder project elixir got it pre installed?
 
-Then for some reasons at any point recieving sms stopped working but starts working again after reboot. However, this full logic of recieving sms ist extremly unstable and does not make any sense on Redmi Note 12 4G NFC (Topaz) with any treble gsi. Not sure what the problem is doe. However I noticed aber installing 2 times project elixir gsi sms recieving starts working again but is also really stable after rebooting... So whatever they did in this rom is a fix to this topic.
+Then for some reasons at any point recieving sms stopped working but starts working again after reboot. However, this full logic of recieving sms ist extremly unstable and does not make any sense on Redmi Note 12 4G NFC (Topaz) with any treble gsi. Not sure what the problem is doe. However I noticed after installing 2 times project elixir gsi sms recieving starts working again but is also not really stable after rebooting... So whatever they did in this rom is a fix to this topic.
 
 **Carefully** Then I installed LSposed Shamiko and recieving of sms stopped working again.
 - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#hide-apps-from-being-detected-as-root
