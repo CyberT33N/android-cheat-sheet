@@ -2339,17 +2339,18 @@ adb push update.zip /sdcard
 <br><br>
 
 ## Not able to recieve SMS on TrebleDroid - Android 13 GSI 
-1. Enable Mobile Data -> Set 4g as default
+1. Disable WLAN and enable mobile data
+   - Enable Mobile Data -> Set 4g as default
 
-2. Settings -> Phh Treble Settings -> IMS features
+3. Settings -> Phh Treble Settings -> IMS features
     - Enable "Request IMS network"
     - Enable "Force the presence of 4G Calling setting"
 
-3. Click "Install IMS APK for Qualcomm S+ vendor"
+4. Click "Install IMS APK for Qualcomm S+ vendor"
 
-4. Click "Create APN"
+5. Click "Create APN"
 
-5. Reboot
+6. Reboot
 
 If above is not working with any GSI treble image then try to flash:
 - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#project-elixir-official-generic-system-image-projectelixir_313_arm64_bgn-130-20231105-0917-officialimg
@@ -2371,7 +2372,9 @@ Then for some reasons at any point recieving sms stopped working but starts work
       - Then I deinstalled org.codeaurora.ims and removed apn and then did everything again from Step 1
 
 Nothing helped?
-- **Maybea a good approche in general if it does stop working again on any GSI or after you reboot and it stop work ist is deinstalling org.codeaurora.ims and removed apn and then do everything again from Step 1-5**
+- **Maybea a good approche in general if it does stop working again on any GSI or after you reboot and it stop work is:
+  - Disable WLAN and enable mobile data 
+  - deinstalling org.codeaurora.ims and removed apn and then do everything again from Step 1-5**
 
 
 
