@@ -2372,7 +2372,7 @@ Then for some reasons at any point recieving sms stopped working but starts work
       - Then I deinstalled org.codeaurora.ims and removed apn and then did everything again from Step 1
 
 Nothing helped?
-- **Maybea a good approche in general if it does stop working again on any GSI or after you reboot and it stop work is:
+- **Maybea a good approche in general if it does stop working again on any GSI or after you reboot and it stop work is**:
   - Disable WLAN and enable mobile data 
   - deinstalling org.codeaurora.ims and removed apn and then do everything again from Step 1-5**
 
