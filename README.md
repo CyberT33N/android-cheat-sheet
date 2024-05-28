@@ -28,6 +28,37 @@ android-cheat-sheet
 
 
 
+
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________________________
+__________________________________________________________________________
+<br><br>
+<br><br>
+
+# ADP
+- Make sure to go into recovery mode with hold POWER BUTTON + VOLUME UP. Or undlock your phone while it is running. However, it need to be unlocked to be able to use adb
+
+<br><br>
+<br><br>
+
+## Pull
+```shell
+adb pull sdcard/PBRP '/home/userNameHost/Documents/handy backup' 
+```
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 __________________________________________________________________________
