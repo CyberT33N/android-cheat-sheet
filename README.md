@@ -59,6 +59,44 @@ adb pull sdcard/PBRP '/home/userNameHost/Documents/handy backup'
 
 
 
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________________________
+__________________________________________________________________________
+<br><br>
+<br><br>
+
+# Error Handling
+- into recovery mode with hold POWER BUTTON + VOLUME UP and then create logs
+```shell
+grep -i "error" /path/to/dmesg
+grep -i "fail" /path/to/dmesg
+
+grep -i "error" /path/to/logcat
+grep -i "fatal" /path/to/logcat
+grep -i "fail" /path/to/logcat
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 __________________________________________________________________________
