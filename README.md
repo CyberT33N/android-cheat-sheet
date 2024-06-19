@@ -2481,7 +2481,6 @@ _______________________________________
 - Try to install your custom ROM with adb sideload. You can enable it via your recovery tool. Then:
 ```shell
 adb sideload '/home/Userhere/android/topaz/crdriod android 14/crDroidAndroid-14.0-20240505-topaz-v10.4.zip' 
-adb sideload '/home/Userhere/android/topaz/crdriod android 14/NikGapps-crdroid-official-arm64-14-20240420-signed.zip' 
 ```
 
 
