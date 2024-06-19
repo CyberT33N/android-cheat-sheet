@@ -346,23 +346,22 @@ ___________________________________________________
 
 <br><br>
 
-## Redmi Note 12 4G NFC (Topaz) (UNOFFICIAL at the moment)
-- https://xdaforums.com/t/unofficial-recovery-13-14-orangefox-recovery-project-tapas-topaz.4600157/
-- https://github.com/chickendrop89/orangefox_device_xiaomi_tapas/releases/download/2023-12-09/OrangeFox-Unofficial-tapas.img
+
+
+## Redmi Note 12 4G NFC (Topaz) 
+
+### OFFICIAL
+- https://orangefox.download/device/topaz
+
+#### Install
+
+##### Via any recovery like twrp
+- Just download .zip from homepage and then install it wie your recovery. Thats it
+
+
+
 
 <br><br>
-
-### Install
-```shell
-fastboot flash recovery /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img --slot=all
-
-# If command above not work try
-# fastboot flash recovery_a /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img
-# fastboot flash recovery_b /home/dennis/Dennis/OrangeFox-Unofficial-tapas.img
-
-fastboot reboot recovery
-```
-
 <br><br>
 
 ### How to select sd card
