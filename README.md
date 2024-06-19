@@ -1361,19 +1361,56 @@ Settings > Mi Account
 
 
 
-
-
-
-
-
-
-<br>
-<br>
+<br><br>
+<br><br>
 ___________________________________________________
 ___________________________________________________
 
-<br>
-<br>
+<br><br>
+<br><br>
+
+
+## How to install custom ROM via ADB Sideload
+1. Go into Recovery
+2. WIPE Dalivk/ art cache + cache + data + internal storage
+3. Go into ADB Sideload and run:
+```shell
+adb sideload /home/userHere/android/topaz/Everest-1.0-NAMCHE-topaz-OFFICIAL-GAPPS-1908-20240315.zip 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+___________________________________________________
+___________________________________________________
+
+<br><br>
+<br><br>
 
 ## How to install any Generic System Image (GSI)
 - Make sure TWRP is installed as fallback
@@ -1493,6 +1530,32 @@ ___________________________________________________
 ####
 - Got pulse audio visuliazer but not really much UI modifications and no custom GS header image
 
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+___________________________________________________
+___________________________________________________
+
+<br><br>
+<br><br>
+
+
+## EverestOS
+- https://sourceforge.net/projects/everestos-releases/files/topaz/
+
+
+
+### Everest-1.0-NAMCHE-topaz-OFFICIAL-GAPPS-1908-20240315
+- https://sourceforge.net/projects/everestos-releases/files/topaz/Everest-1.0-NAMCHE-topaz-OFFICIAL-GAPPS-1908-20240315.zip/download
 
 
 
