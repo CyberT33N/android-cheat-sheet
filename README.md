@@ -1107,16 +1107,25 @@ If your phone supports Project Treble, then you see also which file you should d
 
 ### android 14
 
+<br><br>
+
 #### crdroid
 - https://sourceforge.net/projects/crdroid/files/topaz/10.x/crDroidAndroid-14.0-20240505-topaz-v10.4.zip/download
+  - Does not have GAPPS
+  - https://xdaforums.com/t/rom-14-0-official-crdroid-android.4660613/ 
 
+<br><br>
 
 #### everestos
+- https://sourceforge.net/projects/everestos-releases/files/topaz/
+  - with gapps
 
 <br><br>
 
 #### alphadroid
-
+- https://sourceforge.net/projects/alphadroid-project/files/topaz/AlphaDroid-14.0-20240323-topaz-vanilla-v2.0.zip/download
+  - Only vanilla edition released for android 14 
+  
 <br><br>
 
 #### MemeUI Lite V3
@@ -1124,6 +1133,8 @@ If your phone supports Project Treble, then you see also which file you should d
 <br><br>
 
 #### HorizonDroid
+- https://xdaforums.com/t/shared-horizondroid-elysium-a14-official.4659023/
+  - they removed it idk why 
 
 
 
@@ -1136,20 +1147,6 @@ If your phone supports Project Treble, then you see also which file you should d
 
 
 
-
-
-
-
-
-
-<br><br>
-<br><br>
-
-### android 13
-
-#### AfterLife Project V5.0 (Lust) | Official
-
-#### DroidX
 
 
 
@@ -1174,6 +1171,15 @@ If your phone supports Project Treble, then you see also which file you should d
 - https://sourceforge.net/projects/droidxui-releases/files/topaz/droidx-1.7-20231223-0504-OFFICIAL-topaz-Gapps.zip/download
 
 
+#### AfterLife Project V5.0 (Lust) | Official
+- https://sourceforge.net/projects/afterlife-projects/files/release/topaz/AfterLife-V6.0-Greedy-OFFICIAL-topaz-20240323-CoreGApps.zip/download
+
+<br><br>
+<br><br>
+  
+#### DroidX
+
+
 <br><br>
 <br><br>
 
@@ -1185,8 +1191,6 @@ If your phone supports Project Treble, then you see also which file you should d
 #### Android 13
 - https://cherishos.com/
 - https://sourceforge.net/projects/cherish-os/files/device/topaz/Cherish-OS-v4.12-20230928-0417-topaz-OFFICIAL-GApps.zip/download
-
-
 
 
 <br><br>
@@ -1201,14 +1205,6 @@ If your phone supports Project Treble, then you see also which file you should d
 
 
 
-<br><br>
-<br><br>
-
-### AfterLife Project
-
-#### Android 13 - AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip
-- https://sourceforge.net/projects/afterlife-projects/files/release/topaz/
-- https://sourceforge.net/projects/afterlife-projects/files/release/topaz/AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip/download
 
 
 
