@@ -878,12 +878,6 @@ _________________________________________________________
 7. VoltageOS
 
 
-
-
-
-
-
-
 <br><br>
 <br><br>
 
@@ -1082,12 +1076,43 @@ If your phone supports Project Treble, then you see also which file you should d
 
 
 
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+
+## List of custom roms
+- https://xdaforums.com/t/shared-a-list-of-roms-released-for-topaz-tapas.4659025/
+
+
+
+
+
 <br><br>
 <br><br>
 
 
 
 ## official ROMS
+
+<br><br>
+
+## AfterLife Project V5.0 (Lust) | Official
+
+<br><br>
+
+## MemeUI Lite V3
+
+<br><br>
+
+## HorizonDroid
 
 
 <br><br>
