@@ -2465,23 +2465,24 @@ fastboot reboot
 
 
 
+<br><br>
+<br><br>
+_______________________________________
+_______________________________________
+<br><br>
+<br><br>
 
 
+# Troubleshooting
 
+<br><br>
 
-
-
-
-
-# FAQ
-
-
-## Push files into internal storage from twrp
-- If adb devices is working when you into twrp recovery you can use adb push:
+## Zip file is corrupt
+- Try to install your custom ROM with adb sideload. You can enable it via your recovery tool. Then:
 ```shell
-adb push update.zip /sdcard
+adb sideload '/home/Userhere/android/topaz/crdriod android 14/crDroidAndroid-14.0-20240505-topaz-v10.4.zip' 
+adb sideload '/home/Userhere/android/topaz/crdriod android 14/NikGapps-crdroid-official-arm64-14-20240420-signed.zip' 
 ```
-- if not working try disabling MTP from TWRP "Mount" men
 
 
 <br><br>
@@ -2566,5 +2567,40 @@ Push it to /system/etc/permissions: adb root & adb remount & adb push android.ha
 Reboot, unlock your device, wait one minute. Reboot again, unlock your device, wait one minute.
 Reboot. Wait one minute, go in *#*#4636#*#* and see if IMS works.
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+_______________________________________
+_______________________________________
+<br><br>
+<br><br>
+
+
+
+# FAQ
+
+## Push files into internal storage from twrp
+- If adb devices is working when you into twrp recovery you can use adb push:
+```shell
+adb push update.zip /sdcard
+```
+- if not working try disabling MTP from TWRP "Mount" men
+
 
 
