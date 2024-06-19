@@ -359,6 +359,9 @@ ___________________________________________________
 - Just download .zip from homepage and then install it wie your recovery. Thats it
 
 
+##### Via fastboot
+1. xtract recovery.img from the OrangeFox zip file
+2. `fastboot flash recovery recovery.img`
 
 
 <br><br>
@@ -2478,7 +2481,11 @@ _______________________________________
 <br><br>
 
 ## Zip file is corrupt
-- Try to install your custom ROM with adb sideload. You can enable it via your recovery tool. Then:
+- If you can not install custom ROM or any other .zip via and you get the error that zip file is corrupted try:
+
+1. Format data
+
+2. Try to install your custom ROM with adb sideload. You can enable it via your recovery tool. Then:
 ```shell
 adb sideload '/home/Userhere/android/topaz/crdriod android 14/crDroidAndroid-14.0-20240505-topaz-v10.4.zip' 
 ```
