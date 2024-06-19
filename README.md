@@ -1559,6 +1559,8 @@ ___________________________________________________
 
 
 
+### Install
+- https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#how-to-install-custom-rom-via-adb-sideload
 
 
 
