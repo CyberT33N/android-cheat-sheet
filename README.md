@@ -1102,17 +1102,46 @@ If your phone supports Project Treble, then you see also which file you should d
 
 ## official ROMS
 
+
+### android 14
+
+#### crdroid
+- https://sourceforge.net/projects/crdroid/files/topaz/10.x/crDroidAndroid-14.0-20240505-topaz-v10.4.zip/download
+
+
+#### everestos
+
 <br><br>
 
-## AfterLife Project V5.0 (Lust) | Official
+#### alphadroid
 
 <br><br>
 
-## MemeUI Lite V3
+#### AfterLife Project V5.0 (Lust) | Official
 
 <br><br>
 
-## HorizonDroid
+#### MemeUI Lite V3
+
+<br><br>
+
+#### HorizonDroid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <br><br>
@@ -1121,14 +1150,27 @@ If your phone supports Project Treble, then you see also which file you should d
 
 ### DroidX
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 
 #### Android 13
 - https://sourceforge.net/projects/droidxui-releases/files/topaz/droidx-1.7-20231223-0504-OFFICIAL-topaz-Gapps.zip/download
-
-
-
-
 
 
 <br><br>
@@ -1166,6 +1208,30 @@ If your phone supports Project Treble, then you see also which file you should d
 #### Android 13 - AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip
 - https://sourceforge.net/projects/afterlife-projects/files/release/topaz/
 - https://sourceforge.net/projects/afterlife-projects/files/release/topaz/AfterLife-V3.0-Envy-OFFICIAL-topaz-20231104-CoreGApps.zip/download
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
