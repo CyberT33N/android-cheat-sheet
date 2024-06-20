@@ -466,6 +466,18 @@ fastboot reboot recovery
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 ___________________________________________________
@@ -476,6 +488,7 @@ ___________________________________________________
 
 
 # Magisk
+<details><summary>Click to expand..</summary>
 
 <br><br>
 
@@ -551,6 +564,9 @@ Install Google settings service
 #### Uninstall
 - Due to some magisk uninstall.sh limitation whole pixelify cannot be removed by automatically.
   - To remove completely clear data of Google play services and Google Dialer and then reboot.
+
+
+
 
 
 
@@ -755,6 +771,24 @@ e) Download Root Checker Basic APP and verify if your are rooted
 - Click on "Hide Magisk Manager". This will hide the Magisk Manager by giving the app a new name.
 - Click on "Superuser" tab and select MagiskHide. Here you can select the app which you want to hide from Root. Thats it!
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -816,6 +850,11 @@ ___________________________________________________
 
 
 
+
+
+
+
+
 <br>
 <br>
 ___________________________________________________
@@ -831,6 +870,8 @@ ___________________________________________________
 
 1. Install Substratum Theme engine -> Start APP -> Access root -> Accept usage
 2. Reboot
+
+
 
 
 
@@ -914,6 +955,11 @@ _________________________________________________________
 
 
 
+
+
+
+
+
 <br><br>
 _________________________________________________________
 _________________________________________________________
@@ -930,6 +976,7 @@ _________________________________________________________
 
 ### How to insert the SIM card?
 - https://www.youtube.com/watch?v=TPcXMbwgO48
+
 
 
 
@@ -1013,6 +1060,17 @@ vboxmanage list usbhost
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 <br><br>
@@ -1026,12 +1084,13 @@ vboxmanage list usbhost
 
 
 # Redmi Note 12 4G NFC (Topaz)
+- **There are official build for A13 and A14 which are stable - Use them!**
 - **As it seems for the moment no official & unofficial Android 14 GSI Image is working**
 - **As it seems for the moment no official & unofficial Android 13 GSI Image is able to recieve SMS out of the box**
   - But most GSI images got Phh Treble Settings which can fix it
     - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
      - **But nothing is really stable beside of the rom from Project Elixir**
-
+<details><summary>Click to expand..</summary>
 
 <br><br>
 <br><br>
@@ -1053,6 +1112,10 @@ cd /home/dennis/Dennis/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0
 chmod +x flash_all.sh
 ./flash_all.sh
 ```
+
+
+
+
 
 
 
@@ -1105,14 +1168,19 @@ If your phone supports Project Treble, then you see also which file you should d
 
 ## official ROMS
 
+<br><br>
+
 
 ### android 14
 
+<br><br>
 
-### Project Matrixx
+
+#### Project Matrixx **HOT**
 - https://www.projectmatrixx.org/downloads/topaz
 - https://sourceforge.net/projects/projectmatrixx/files/Android-14/topaz/
-- 
+
+  
 <br><br>
 
 #### crdroid
@@ -1312,6 +1380,14 @@ AlphaDroid
 
 
 
+
+
+
+
+
+
+
+
 <br>
 <br>
 ___________________________________________________
@@ -1367,6 +1443,17 @@ Settings > Mi Account
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 <br><br>
 <br><br>
 ___________________________________________________
@@ -1383,6 +1470,7 @@ ___________________________________________________
 ```shell
 adb sideload /home/userHere/android/topaz/Everest-1.0-NAMCHE-topaz-OFFICIAL-GAPPS-1908-20240315.zip 
 ```
+
 
 
 
@@ -2487,7 +2575,7 @@ fastboot reboot
 - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
 
 
-
+</details>
 
 
 
@@ -2668,12 +2756,20 @@ _______________________________________
 
 # FAQ
 
+<br><br>
+
 ## Push files into internal storage from twrp
 - If adb devices is working when you into twrp recovery you can use adb push:
 ```shell
 adb push update.zip /sdcard
 ```
 - if not working try disabling MTP from TWRP "Mount" men
+
+<br><br>
+
+
+## Format SC card
+- Settings -> Storage -> Select SD Card -> Format
 
 
 
