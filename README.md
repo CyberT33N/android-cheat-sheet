@@ -2778,10 +2778,12 @@ adb push update.zip /sdcard
 2. Boot into recovery e.g. Orange Fox and then create Backup. Select everything and use as storage your micro sd card
 - Will only work with external sd card in most cases if you want to backup everything. However, this was only the case for Orange Fox. I remember for Pitch Black recovery I had no such problems. But I can not remember anymore if I created the backup to my internal storage or to the micro sd
 
-3. [OPTIONAL] Copy Backup to your PC (You can use adb commands in recovery mode):
+3. Copy Backup to your PC (You can use adb commands in recovery mode):
 ```
 adb pull sdcard1/Fox /home/UserNameHere/android/backup
 ```
+
+4. Notice that your backup at your sd card is not encrypted. After you copied the backup to your pc you should copy the backup from the sd card back to the encrypted internal storage of your device. They easiest way is by using a file manager apk
 
 
 
