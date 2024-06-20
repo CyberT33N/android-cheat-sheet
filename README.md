@@ -2765,10 +2765,30 @@ adb push update.zip /sdcard
 ```
 - if not working try disabling MTP from TWRP "Mount" men
 
+
+
+
+<br><br>
 <br><br>
 
+## How to create Backup
+1. Format SD Card by using android:
+- Settings -> Storage -> Select SD Card -> Format
 
-## Format SC card
+2. Boot into recovery e.g. Orange Fox and then create Backup. Select everything and use as storage your micro sd card
+- Will only work with external sd card in most cases if you want to backup everything. However, this was only the case for Orange Fox. I remember for Pitch Black recovery I had no such problems. But I can not remember anymore if I created the backup to my internal storage or to the micro sd
+
+3. [OPTIONAL] Copy Backup to your PC (You can use adb commands in recovery mode):
+```
+adb pull sdcard1/Fox /home/UserNameHere/android/backup
+```
+
+
+
+<br><br>
+<br><br>
+
+## Format SC Dard
 - Settings -> Storage -> Select SD Card -> Format
 
 
