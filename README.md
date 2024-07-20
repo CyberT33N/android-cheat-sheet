@@ -51,6 +51,20 @@ adb pull sdcard/PBRP '/home/userNameHost/Documents/handy backup'
 ```
 
 
+<br><br>
+<br><br>
+
+
+## Shell
+- ADB shell works when you are in recovery. So boot into recovery when your phone is connected with you pc and then you are able to run `adb shell`
+
+
+
+
+
+
+
+
 
 
 
