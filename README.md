@@ -2789,7 +2789,13 @@ adb push update.zip /sdcard
 - if not working try disabling MTP from TWRP "Mount" men
 
 
+<br><br>
+<br><br>
 
+## How to hide root
+
+1. Magisk > Settings > Deny List and select the app
+   - Make sure to have everything else installed (https://github.com/cybert33n/android-cheat-sheet?tab=readme-ov-file#hide-apps-from-being-detected-as-root)
 
 <br><br>
 <br><br>
