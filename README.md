@@ -65,6 +65,15 @@ adb pull sdcard/PBRP '/home/userNameHost/Documents/handy backup'
 
 
 
+<br><br>
+<br><br>
+
+## Reboot into Recovery
+```shell
+adb reboot bootloader
+fastboot devices
+fastboot reboot recovery
+```
 
 
 
