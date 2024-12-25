@@ -587,9 +587,12 @@ ___________________________________________________
 
 <details><summary>Click to expand..</summary>
 
+
 <br><br>
 
 ## Best Modules
+
+<details><summary>Click to expand..</summary>
 
 <br><br>
 
@@ -676,8 +679,6 @@ Install Google settings service
 
 
 
-
-
 <br><br>
 <br><br>
 
@@ -712,6 +713,7 @@ Install Google settings service
 5. Open LSposed -> hold iconify and selet re-optimize. Then enable module and then restart
 
 
+</details>
 
 
 
@@ -726,15 +728,10 @@ Install Google settings service
 
 
 
-
-<br><br>
-<br><br>
 
 
 <br><br>
 <br><br>
-
-
 <br><br>
 <br><br>
 
@@ -749,7 +746,7 @@ Install Google settings service
 - If you have problem with recieving sms on gsi treble images you may read this here before installing magisk or try the steps below
   - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#not-able-to-recieve-sms-on-trebledroid---android-13-gsi
  
-  - 
+
 <br><br>
 
 ### Guide 
