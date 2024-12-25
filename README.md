@@ -742,7 +742,7 @@ Install Google settings service
 <br><br>
 <br><br>
 
-## Magisk v26.4 - Redmi Note 12 4G NFC (Topaz) - GSI
+## Magisk v26.4 - 28 - Redmi Note 12 4G NFC (Topaz) - GSI
 - If you have problem with recieving sms on gsi treble images you may read this here before installing magisk or try the steps below
   - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#not-able-to-recieve-sms-on-trebledroid---android-13-gsi
  
@@ -751,6 +751,9 @@ Install Google settings service
 
 ### Guide 
 - https://www.youtube.com/watch?v=7eR7bVu-e4s
+
+
+#### Install / Update
 
 <br><br>
 
@@ -768,7 +771,8 @@ fastboot reboot recovery
 <br><br>
 
 3. Install
-a) TWRP Recovery / Pitch Black Recovery -> Advanced -> ADB Sideload -> SWIPE (No need to check anything)
+   
+a) TWRP Recovery / Pitch Black / orange Fox Recovery -> Advanced -> ADB Sideload -> SWIPE (No need to check anything)
 
 <br><br>
 
@@ -797,6 +801,17 @@ e) Download Root Checker Basic APP and verify if your are rooted
 
 
 
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 <br><br>
 <br><br>
 
