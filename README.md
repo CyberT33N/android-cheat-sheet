@@ -42,6 +42,8 @@ __________________________________________________________________________
 # ADP
 - Make sure to go into recovery mode with hold POWER BUTTON + VOLUME UP. Or undlock your phone while it is running. However, it need to be unlocked to be able to use adb
 
+<details><summary>Click to expand..</summary>
+
 <br><br>
 <br><br>
 
@@ -74,6 +76,18 @@ adb reboot bootloader
 fastboot devices
 fastboot reboot recovery
 ```
+
+
+</details>
+
+
+
+
+
+
+
+
+
 
 
 
@@ -120,6 +134,11 @@ grep -i "fail" /path/to/logcat
 
 
 
+
+
+
+
+
 <br><br>
 <br><br>
 __________________________________________________________________________
@@ -132,6 +151,8 @@ __________________________________________________________________________
 
 ## Nice apks
 
+<details><summary>Click to expand..</summary>
+
 <br><br>
 
 ### Wallpaper engine
@@ -143,6 +164,27 @@ __________________________________________________________________________
 - Microsoft Swift Key
   - With Dall-E Image Generation
  
+
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -168,6 +210,9 @@ __________________________________________________________________________
 
 
 ## KWLP (PAID)
+
+<details><summary>Click to expand..</summary>
+
 - https://play.google.com/store/apps/details?id=org.kustom.wallpaper&hl=en_US
 - https://www.youtube.com/watch?v=4S8aiCl-ktc
 
@@ -226,6 +271,7 @@ __________________________________________________________________________
 - Just search in play store for kwlp
 
 
+</details>
 
 
 
@@ -235,10 +281,37 @@ __________________________________________________________________________
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+__________________________________________________________________________
+__________________________________________________________________________
+<br><br>
+<br><br>
 
 
 
 ## Recovery
+
+<details><summary>Click to expand..</summary>
 
 ### Best Recovery Tool
 - For my opinion
@@ -477,7 +550,7 @@ fastboot reboot recovery
 
 
 
-
+</details>
 
 
 
@@ -511,6 +584,7 @@ ___________________________________________________
 
 
 # Magisk
+
 <details><summary>Click to expand..</summary>
 
 <br><br>
