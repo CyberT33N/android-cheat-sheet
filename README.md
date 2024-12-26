@@ -736,6 +736,38 @@ Install Google settings service
 <br><br>
 
 
+## Hide from apps being detected
+
+Install Latest official Magisk with below magisk modules:
+- https://github.com/osm0sis/PlayIntegrityFork (with the default pif file provided via "Action" option)
+- Latest Shamiko
+- https://github.com/Dr-TSNG/ZygiskNext (I didn't enabled the Zygisk bundled with the Magisk)
+- https://github.com/daboynb/playcurlNEXT <-- Magisk Module
+- https://github.com/chiteroman/PlayIntegrityFix <-- Magisk Module
+
+Then I:
+- hide it the Magisk by renamed the application;
+- checked the Revolut app into the DenyList (I did NOT checked the "Enforce DenyList" option)
+
+Additional you can try following lsposed modules:
+- https://github.com/Dr-TSNG/Hide-My-Applist/releases/tag/V3.3.1
+- https://play.google.com/store/apps/details?id=net.accelf.devoptshide&hl=gsw
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
 
 ## Root with Magisk by using TWRP Recovery / Pitch Black Recovery
 
