@@ -2890,6 +2890,7 @@ adb push update.zip /sdcard
 Install Latest official Magisk with below magisk modules:
 - https://github.com/osm0sis/PlayIntegrityFork (with the default pif file provided via "Action" option)
 - https://github.com/Dr-TSNG/ZygiskNext (I didn't enabled the Zygisk bundled with the Magisk)
+  - https://github.com/Dr-TSNG/ZygiskNext/wiki/Basics-&-FAQ 
 - https://github.com/daboynb/playcurlNEXT <-- Magisk Module
 - https://github.com/chiteroman/PlayIntegrityFix <-- Magisk Module
 
@@ -2913,7 +2914,7 @@ Additional you can try following lsposed modules:
 
 
 
-### Option 2
+### Option 2 (Old way - Tested and stable for most apps beside of latest revolut)
 0. Hide Magis app via settings
 1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
 2. Download YASNAC SafetyNet Checker
