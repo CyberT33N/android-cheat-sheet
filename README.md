@@ -730,36 +730,6 @@ Install Google settings service
 
 
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
-
-
-## Hide from apps being detected
-
-Install Latest official Magisk with below magisk modules:
-- https://github.com/osm0sis/PlayIntegrityFork (with the default pif file provided via "Action" option)
-- Latest Shamiko
-- https://github.com/Dr-TSNG/ZygiskNext (I didn't enabled the Zygisk bundled with the Magisk)
-- https://github.com/daboynb/playcurlNEXT <-- Magisk Module
-- https://github.com/chiteroman/PlayIntegrityFix <-- Magisk Module
-
-Then I:
-- hide it the Magisk by renamed the application;
-- checked the Revolut app into the DenyList (I did NOT checked the "Enforce DenyList" option)
-
-Additional you can try following lsposed modules:
-- https://github.com/Dr-TSNG/Hide-My-Applist/releases/tag/V3.3.1
-- https://play.google.com/store/apps/details?id=net.accelf.devoptshide&hl=gsw
-
-
-
-
-
-
-
-
 
 
 
@@ -874,32 +844,21 @@ e) Download Root Checker Basic APP and verify if your are rooted
 
 
 
-<br><br>
-<br><br>
 
-### Hide apps from being detected as root
-- If you have problem with recieving sms on gsi treble images you may read this here before installing magisk or try the steps below
-  - https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#not-able-to-recieve-sms-on-trebledroid---android-13-gsi
 
-#### After Magisk 24
-0. Hide Magis app via settings
-1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
-2. Download YASNAC SafetyNet Checker
-3. Download safetynet-fix (https://www.youtube.com/watch?v=rggvk3DPD1o):
-        - https://github.com/kdrag0n/safetynet-fix/releases
-            - Install .zip via magisk module section -> Reboot
 
-4. Install LSposed (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#lsposed-framework)
-  - Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
-   - Make sure Universal fix and shamiko modules are sucessfully enabled. Try pass YASNAC SafetyNet Checker and check any app that is detecting you from root. E.g. freenow
-     - If not work try to go to step 5
-       
-6. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
-   - At google play service only enable:
-    - com.google.com.android.gms 
-    - com.google.android.gms.unstable
 
-7. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
+
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
 <br><br>
@@ -2911,8 +2870,85 @@ adb push update.zip /sdcard
 
 ## How to hide root
 
+<details><summary>Click to expand..</summary>
+
 1. Magisk > Settings > Deny List and select the app
    - Make sure to have everything else installed (https://github.com/cybert33n/android-cheat-sheet?tab=readme-ov-file#hide-apps-from-being-detected-as-root)
+
+
+
+## More detailed way
+
+
+### Option 1 (latest)
+- Order not verify yet since I just wrote it down while gathering latest tools
+
+0. Hide Magis app via settings
+
+1. Download YASNAC SafetyNet Checker
+
+Install Latest official Magisk with below magisk modules:
+- https://github.com/osm0sis/PlayIntegrityFork (with the default pif file provided via "Action" option)
+- https://github.com/Dr-TSNG/ZygiskNext (I didn't enabled the Zygisk bundled with the Magisk)
+- https://github.com/daboynb/playcurlNEXT <-- Magisk Module
+- https://github.com/chiteroman/PlayIntegrityFix <-- Magisk Module
+
+Install LSposed (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#lsposed-framework)
+  - Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
+   - Make sure Universal fix and shamiko modules are sucessfully enabled. Try pass YASNAC SafetyNet Checker and check any app that is detecting you from root. E.g. freenow
+     - If not work try to go to step 5
+
+- checked the banking app from hide from root into the DenyList (I did NOT checked the "Enforce DenyList" option)
+  - (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
+    - At google play service only enable:
+      - com.google.com.android.gms 
+      - com.google.android.gms.unstable
+
+Additional you can try following lsposed modules:
+- https://github.com/Dr-TSNG/Hide-My-Applist/releases/tag/V3.3.1
+- https://play.google.com/store/apps/details?id=net.accelf.devoptshide&hl=gsw
+
+
+
+
+
+
+### Option 2
+0. Hide Magis app via settings
+1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
+2. Download YASNAC SafetyNet Checker
+3. Download safetynet-fix (https://www.youtube.com/watch?v=rggvk3DPD1o):
+        - https://github.com/kdrag0n/safetynet-fix/releases
+            - Install .zip via magisk module section -> Reboot
+
+4. Install LSposed (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#lsposed-framework)
+  - Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
+   - Make sure Universal fix and shamiko modules are sucessfully enabled. Try pass YASNAC SafetyNet Checker and check any app that is detecting you from root. E.g. freenow
+     - If not work try to go to step 5
+       
+6. (optional) Magisk -> Settings -> configure deny list -> 3 dots show system apps -> enable play store and google play services
+   - At google play service only enable:
+    - com.google.com.android.gms 
+    - com.google.android.gms.unstable
+
+7. Now go to Settings -> Coonfigure deny list and now add apps where you want to hide root from
+
+
+
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
 
 <br><br>
 <br><br>
