@@ -3,6 +3,27 @@ android-cheat-sheet
 
 
 
+## Virtual Machines
+
+### https://www.osboxes.org/android-x86/
+
+#### LineageOS 14.1 R5 (Cynagenmod)
+- https://sourceforge.net/projects/osboxes/files/v/vb/1-A-d/Lineage-OS-CynagenMod/14.1/R5/64bit.7z/download
+
+
+
+
+
+
+
+<br><br>
+_________________________
+_________________________
+<br><br>
+
+
+
+
 
 
 
