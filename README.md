@@ -8,8 +8,16 @@ android-cheat-sheet
 ### https://www.osboxes.org/android-x86/
 
 #### LineageOS 14.1 R5 (Cynagenmod)
+- https://www.youtube.com/watch?v=g2Ut7EJ6iIg
+
+1. Download
 - https://sourceforge.net/projects/osboxes/files/v/vb/1-A-d/Lineage-OS-CynagenMod/14.1/R5/64bit.7z/download
 
+2. Then after you imported the vdi file and you ran it press e and edit grub file, then press again e
+  
+Scroll to left and delete `quite` and replace with `nomodeset xforcevesa`
+
+Then press enter to verify and then press b to boot
 
 
 
