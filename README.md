@@ -2796,6 +2796,8 @@ _______________________________________
 
 # Troubleshooting
 
+<details><summary>Click to expand..</summary>
+
 <br><br>
 
 ## Zip file is corrupt
@@ -2894,6 +2896,19 @@ Reboot. Wait one minute, go in *#*#4636#*#* and see if IMS works.
 
 
 
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2918,6 +2933,8 @@ _______________________________________
 
 
 # FAQ
+
+<details><summary>Click to expand..</summary>
 
 <br><br>
 
@@ -3015,6 +3032,7 @@ Additional you can try following lsposed modules:
 
 
 
+
 <br><br>
 <br><br>
 
@@ -3034,6 +3052,10 @@ adb pull sdcard1/Fox /home/UserNameHere/android/backup
 
 
 
+
+
+
+
 <br><br>
 <br><br>
 
@@ -3042,3 +3064,6 @@ adb pull sdcard1/Fox /home/UserNameHere/android/backup
 
 
 
+
+
+</details>
