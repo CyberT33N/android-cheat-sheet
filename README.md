@@ -1,9 +1,11 @@
-# android-cheat-sheet
-android-cheat-sheet
+# Android Cheat Sheet
+
 
 
 
 ## Virtual Machines
+
+<details><summary>Click to expand..</summary>
 
 ### https://www.osboxes.org/android-x86/
 
@@ -18,6 +20,16 @@ android-cheat-sheet
 Scroll to left and delete `quite` and replace with `nomodeset xforcevesa`
 
 Then press enter to verify and then press b to boot
+
+
+</details>
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +140,8 @@ fastboot reboot recovery
 
 
 
+
+
 <br><br>
 <br><br>
 __________________________________________________________________________
@@ -168,6 +182,7 @@ grep -i "fail" /path/to/logcat
 
 
 
+
 <br><br>
 <br><br>
 __________________________________________________________________________
@@ -184,58 +199,28 @@ __________________________________________________________________________
 
 <br><br>
 
-### Wallpaper engine
-- https://play.google.com/store/apps/details?id=io.wallpaperengine.weclient
-
-### Keyboard
-- Gboard
-  
-- Microsoft Swift Key
-  - With Dall-E Image Generation
- 
 
 
 
+## Substratum Theme engine
+- https://droidwin.com/install-substratum-themes-android/
 
-</details>
+### Guides
+- https://droidwin.com/install-substratum-themes-android/
+
+1. Install Substratum Theme engine -> Start APP -> Access root -> Accept usage
+2. Reboot
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br>
-<br><br>
-__________________________________________________________________________
-__________________________________________________________________________
-<br><br>
-<br><br>
-
-
+<br>
+<br>
+___________________________________________________
+___________________________________________________
+<br>
+<br>
 
 
 ## KWLP (PAID)
@@ -301,6 +286,54 @@ __________________________________________________________________________
 
 
 </details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Wallpaper engine
+- https://play.google.com/store/apps/details?id=io.wallpaperengine.weclient
+
+### Keyboard
+- Gboard
+  
+- Microsoft Swift Key
+  - With Dall-E Image Generation
+ 
+
+
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -580,6 +613,12 @@ fastboot reboot recovery
 
 
 </details>
+
+
+
+
+
+
 
 
 
@@ -946,6 +985,8 @@ __________________
 
 # LSposed Framework
 
+<details><summary>Click to expand..</summary>
+
 ## Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
 
 ### Guide
@@ -962,6 +1003,7 @@ __________________
    
 
 
+</details>
 
 
 
@@ -973,31 +1015,6 @@ __________________
 
 
 
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-___________________________________________________
-___________________________________________________
-<br>
-<br>
-
-## Substratum Theme engine
-- https://droidwin.com/install-substratum-themes-android/
-
-### Guides
-- https://droidwin.com/install-substratum-themes-android/
-
-1. Install Substratum Theme engine -> Start APP -> Access root -> Accept usage
-2. Reboot
 
 
 
@@ -1050,6 +1067,11 @@ _________________________________________________________
 8. VoltageOS
 
 
+
+
+
+
+
 <br><br>
 <br><br>
 
@@ -1088,13 +1110,20 @@ _________________________________________________________
 
 
 
+
+
 <br><br>
-_________________________________________________________
-_________________________________________________________
+
+_______
+_______
+
 <br><br>
 
 # Install custom ROM Guides
 - Below you will find guides which I wrote an tested..
+
+
+
 
 <br><br>
 
@@ -1104,6 +1133,11 @@ _________________________________________________________
 
 ### How to insert the SIM card?
 - https://www.youtube.com/watch?v=TPcXMbwgO48
+
+
+
+
+
 
 
 
