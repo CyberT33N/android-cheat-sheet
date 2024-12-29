@@ -1222,6 +1222,33 @@ vboxmanage list usbhost
 
 
 
+# Redmi Note 8 (ginkgo)
+
+
+
+
+<details><summary>Click to expand..</summary>
+
+
+
+# Flash back to stock firmware
+Download original stock firmware (https://xiaomirom.com/en/rom/redmi-note-8-ginkgo-europe-fastboot-recovery-rom/#download-redmi-note-8-stable-recovery-rom)
+
+## ginkgo_eea_global_images_V12.5.12.0.RCOEUXM_20221127.0000.00_11.0_eea_fdd5e37d21.tgz
+- https://cdnorg.d.miui.com/V12.5.12.0.RCOEUXM/ginkgo_eea_global_images_V12.5.12.0.RCOEUXM_20221127.0000.00_11.0_eea_fdd5e37d21.tgz
+
+```
+# go into fastboot
+
+
+cd /home/dennis/Dennis/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0 
+chmod +x flash_all.sh
+./flash_all.sh
+```
+
+
+  
+</details>
 
 
 
@@ -1233,10 +1260,13 @@ vboxmanage list usbhost
 
 
 
-<br><br>
-<br><br>
-<br><br>
-<br><br>
+
+
+
+
+
+
+
 
 <br><br>
 <br><br>
