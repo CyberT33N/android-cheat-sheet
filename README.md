@@ -1251,7 +1251,8 @@ vboxmanage list usbhost
 - **As it seems for the moment no official & unofficial Android 13 GSI Image is able to recieve SMS out of the box**
   - But most GSI images got Phh Treble Settings which can fix it
     - [FIX - SMS recieving not working](https://github.com/CyberT33N/android-cheat-sheet/blob/main/README.md#not-able-to-recieve-sms-on-trebledroid---android-13-gsi)
-     - **But nothing is really stable beside of the rom from Project Elixir**
+     - **But nothing is really stable beside of the rom from Matrixx ROM (https://www.projectmatrixx.org/)**
+       
 <details><summary>Click to expand..</summary>
 
 <br><br>
