@@ -1239,9 +1239,10 @@ Download original stock firmware (https://xiaomirom.com/en/rom/redmi-note-8-gink
 
 ```
 # go into fastboot
+adb reboot bootloader
 
 
-cd /home/dennis/Dennis/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0 
+cd '/home/dennis/Documents/android/redmi note 8/stock firmaware/fastboot/ginkgo_eea_global_images_V12.5.12.0.RCOEUXM_20221127.0000.00_11.0_eea' 
 chmod +x flash_all.sh
 ./flash_all.sh
 ```
@@ -1300,6 +1301,7 @@ Download original stock firmware (https://new.c.mi.com/global/miuidownload/index
     - https://airtel.bigota.d.miui.com/V14.0.12.0.TMGEUXM/topaz_eea_global_images_V14.0.12.0.TMGEUXM_20231106.0000.00_13.0_eea_0d5c69604e.tgz
 ```
 # go into fastboot
+adb reboot bootloader
 
 cd /home/dennis/Dennis/topaz_eea_global_images_V14.0.12.0.TMGEUXM_13.0 
 chmod +x flash_all.sh
