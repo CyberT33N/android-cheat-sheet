@@ -2968,9 +2968,37 @@ _______________________________________
 
 <details><summary>Click to expand..</summary>
 
+
+# Update
+
 <br><br>
 
-## Push files into internal storage from twrp
+## How to update custom ROM
+
+1. Download your latest Update for your custom ROM and place it to your storage of your phone. Then boot into recovery:
+```shell
+adb reboot bootloader
+fastboot reboot recovery
+# enter password..
+```
+
+2. Click Install > Choose latest build .zip > Swipe > Wipe Cache/Dalvik > Reboot
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+
+# Push files into internal storage from twrp
 - If adb devices is working when you into twrp recovery you can use adb push:
 ```shell
 adb push update.zip /sdcard
@@ -2981,7 +3009,7 @@ adb push update.zip /sdcard
 <br><br>
 <br><br>
 
-## How to hide root
+# How to hide root
 
 <details><summary>Click to expand..</summary>
 
@@ -2990,10 +3018,10 @@ adb push update.zip /sdcard
 
 
 
-## More detailed way
+# More detailed way
 
 
-### Option 1 (latest)
+## Option 1 (latest)
 - Order not verify yet since I just wrote it down while gathering latest tools
 
 0. Hide Magis app via settings
@@ -3027,7 +3055,7 @@ Additional you can try following lsposed modules:
 
 
 
-### Option 2 (Old way - Tested and stable for most apps beside of latest revolut)
+## Option 2 (Old way - Tested and stable for most apps beside of latest revolut)
 0. Hide Magis app via settings
 1. Make sure Zygisk is enabled & enfore deny list is disabled (Reboot if you enabled it for first time)
 2. Download YASNAC SafetyNet Checker
@@ -3068,7 +3096,7 @@ Additional you can try following lsposed modules:
 <br><br>
 <br><br>
 
-## How to create Backup
+# How to create Backup
 1. Format SD Card by using android:
 - Settings -> Storage -> Select SD Card -> Format
 
@@ -3084,7 +3112,7 @@ adb pull sdcard1/Fox /home/UserNameHere/android/backup
 
 <br><br>
 
-### Get backup from sd card in generell
+## Get backup from sd card in generell
 ```shell
 adb reboot bootloader
 fastboot reboot recovery
@@ -3101,7 +3129,7 @@ adb pull sdcard1/Fox /home/userHere/Documents/android/backup
 <br><br>
 <br><br>
 
-## Format SC Dard
+# Format SC Dard
 - Settings -> Storage -> Select SD Card -> Format
 
 
