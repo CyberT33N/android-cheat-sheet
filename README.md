@@ -828,7 +828,7 @@ Install Google settings service
 <br><br>
 
 1. Download latest Magisk
-- https://github.com/topjohnwu/Magisk/releases/tag/v26.4
+- https://github.com/topjohnwu/Magisk/releases
 
 <br><br>
 
