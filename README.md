@@ -1014,10 +1014,11 @@ __________________
 
 <details><summary>Click to expand..</summary>
 
-## Redmi Note 12 4G NFC (Topaz) - Lineage OS 20
 
-### Guide
+
+# Install
 - https://www.youtube.com/watch?v=FtZuoynM0p4
+- **As it seems this is not working anymore with the latest magisk because lsposed is public archived now.. In my case it is not starting anymore.. 31.12.2024**
 
 1. Open Magisk -> Settings -> Enable Zygisk -> Reboot
 
