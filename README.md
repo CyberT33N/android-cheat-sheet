@@ -3082,6 +3082,16 @@ adb pull sdcard1/Fox /home/UserNameHere/android/backup
 
 4. Notice that your backup at your sd card is not encrypted. After you copied the backup to your pc you should copy the backup from the sd card back to the encrypted internal storage of your device. They easiest way is by using a file manager apk
 
+<br><br>
+
+### Get backup from sd card in generell
+```shell
+adb reboot bootloader
+fastboot reboot recovery
+# enter password..
+adb pull sdcard1/Fox /home/userHere/Documents/android/backup
+```
+
 
 
 
