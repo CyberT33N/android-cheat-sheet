@@ -510,16 +510,35 @@ ___________________________________________________
 
 ### OFFICIAL
 - https://orangefox.download/device/topaz
+- **Download the .zip file to your device or push it later via adb**
+
 
 #### Install
 
 ##### Via any recovery like twrp
 - Just download .zip from homepage and then install it wie your recovery. Thats it
 
+<br><br>
 
 ##### Via fastboot
-1. xtract recovery.img from the OrangeFox zip file
-2. `fastboot flash recovery recovery.img`
+
+1. Extract recovery.img from the OrangeFox zip file
+2. Flash recovery Image
+```shell
+adb reboot bootloader
+fastboot flash recovery recovery.img
+fastboot reboot recovery
+```
+
+3. Copy zip to sd card
+```
+adb push '/home/userName/Documents/android/redmi note 12/recovery/orange fox/OrangeFox-topaz-stable@R11.1_2_2.zip' 'sdcard1/OrangeFox-topaz-stable@R11.1_2_2.zip'
+```
+
+5. Flash the .zip file
+
+
+
 
 
 <br><br>
