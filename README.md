@@ -3060,12 +3060,13 @@ adb push update.zip /sdcard
 
 Install Latest official Magisk with below magisk modules:
 - https://github.com/osm0sis/PlayIntegrityFork (with the default pif file provided via "Action" option)
+  - Alternative you can install this https://github.com/chiteroman/PlayIntegrityFix
   
 - https://github.com/Dr-TSNG/ZygiskNext (Disable the enabled zygsik and then install the .zip via magisk)
   - https://github.com/Dr-TSNG/ZygiskNext/wiki/Basics-&-FAQ
   
 - https://github.com/daboynb/playcurlNEXT
-- https://github.com/chiteroman/PlayIntegrityFix
+
 
 Install LSposed (https://github.com/CyberT33N/android-cheat-sheet?tab=readme-ov-file#lsposed-framework)
   - Download Shamiko: https://github.com/LSPosed/LSPosed.github.io/releases and flash it with magisk -> Reboot
