@@ -2976,7 +2976,7 @@ _______________________________________
 ## How to update custom ROM
 
 ### Dirty Flash
-- **Notice that with this method Magisk will not work anymore and you have to re-install it**
+- **Notice that with this method Magisk will not work anymore and you have to re-install it. Also your custom Recovery will be deleted**
 
 1. Download your latest Update for your custom ROM and place it to your storage of your phone. Then boot into recovery:
 ```shell
