@@ -85,10 +85,9 @@ __________________________________________________________________________
 
 <details><summary>Click to expand..</summary>
 
-<br><br>
-<br><br>
 
-## Pull
+# Pull
+- pull file from android device to pc
 ```shell
 adb pull sdcard/PBRP '/home/userNameHost/Documents/handy backup' 
 ```
@@ -97,8 +96,17 @@ adb pull sdcard/PBRP '/home/userNameHost/Documents/handy backup'
 <br><br>
 <br><br>
 
+# Push
+- Push file from pc to android device
+```shell
+adb push <lokaler_dateipfad> <zielpfad_auf_dem_gerät>
+```
 
-## Shell
+
+<br><br>
+<br><br>
+
+# Shell
 - ADB shell works when you are in recovery. So boot into recovery when your phone is connected with you pc and then you are able to run `adb shell`
 
 
